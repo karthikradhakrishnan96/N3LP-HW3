@@ -1,0 +1,32 @@
+{
+  "embed": {
+    "word_embeddings.weight" : "bert.embeddings.word_embeddings.weight",
+    "token_type_embeddings.weight" : "bert.embeddings.token_type_embeddings.weight",
+    "position_embeddings.weight" : "bert.embeddings.position_embeddings.weight",
+    "layer_norm.weight" : "bert.embeddings.LayerNorm.gamma",
+    "layer_norm.bias" : "bert.embeddings.LayerNorm.beta"
+  },
+  "encoder": {
+    "root_name" : "bert.encoder.layer.",
+    "attention" : {
+      "in_proj_weight" : ["attention.self.query.weight", "attention.self.key.weight", "attention.self.value.weight"],
+      "in_proj_bias" : ["attention.self.query.bias", "attention.self.key.bias", "attention.self.value.bias"],
+      "out_proj.weight" : "attention.output.dense.weight",
+      "out_proj.bias" : "attention.output.dense.bias"
+    },
+    "other" : {
+      "norm1.weight": "attention.output.LayerNorm.gamma",
+      "norm1.bias": "attention.output.LayerNorm.beta",
+      "linear1.weight": "intermediate.dense.weight",
+      "linear1.bias": "intermediate.dense.bias",
+      "linear2.weight": "output.dense.weight",
+      "linear2.bias": "output.dense.bias",
+      "norm2.weight": "output.LayerNorm.gamma",
+      "norm2.bias": "output.LayerNorm.beta"
+    }
+  },
+  "condenser" : {
+    "fc1.weight" : "bert.pooler.dense.weight",
+    "fc1.bias" : "bert.pooler.dense.bias"
+  }
+}
