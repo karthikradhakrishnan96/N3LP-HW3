@@ -1,0 +1,3 @@
+Please download the BERT pretrained model bin file and place it in this folder
+
+from https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin
