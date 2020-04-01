@@ -10,7 +10,7 @@ Steps to run the code :
 - Unzip data_proc/saved_data_RumEval2019.zip onto data/saved_data_RumEval2019
 - Run runner.py 
 
-The system will start printing out the validation F1 scores after every epoch. The score reported by the BUT-FIT paper is 51.4 with BERT-base. After about 50 epochs, it should exceed the score. 
+The system will start printing out the validation F1 scores after every epoch. The score reported by the BUT-FIT paper is 51.4 with BERT-base. After about 60 epochs, it should exceed the score. 
 
 Inspiration and data pre-processing credits - 
 https://www.aclweb.org/anthology/S19-2192/
