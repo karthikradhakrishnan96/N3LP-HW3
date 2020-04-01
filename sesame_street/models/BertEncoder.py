@@ -1,6 +1,5 @@
 from torch import nn
-from constants.model_consts import *
-
+from sesame_street.constants.model_consts import *
 
 class BertEncoder(nn.Module):
     def __init__(self, num_layers, input_size):
@@ -9,6 +8,8 @@ class BertEncoder(nn.Module):
                                                    activation="gelu")
         self.encoder_stack = nn.TransformerEncoder(encoder_layer, num_layers)
 
-    def forward(self, embeds):
-        x = self.encoder_stack(embeds)
-        return x
+    def forward(self, embeds, mask_ids = None):
+        if mask_ids is not None:
+          mask_ids = mask_ids == 0
+        x = self.encoder_stack(embeds.permute(1, 0, 2), src_key_padding_mask = mask_ids)
+        return x.permute(1,0,2)

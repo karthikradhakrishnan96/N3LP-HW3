@@ -1,0 +1,2139 @@
+Setting seeds
+Preparing datasets
+t_total value of -1 results in schedule not being applied
+Using class weights :  [3.8043243885040283, 1.0, 9.309523582458496, 8.90886116027832]
+Starting to train
+Done with batch 0, acc : 0.750, loss : 0.236
+Done with batch 50, acc : 0.868, loss : 0.256
+Done with batch 100, acc : 0.819, loss : 0.289
+Done with batch 150, acc : 0.778, loss : 0.307
+Done with batch 200, acc : 0.764, loss : 0.310
+Done with batch 250, acc : 0.751, loss : 0.318
+Done with batch 300, acc : 0.745, loss : 0.320
+Done with batch 350, acc : 0.737, loss : 0.322
+Done with batch 400, acc : 0.733, loss : 0.323
+Done with batch 450, acc : 0.724, loss : 0.325
+Done with batch 500, acc : 0.721, loss : 0.326
+Done with batch 550, acc : 0.720, loss : 0.326
+Done with batch 600, acc : 0.719, loss : 0.325
+Done with batch 650, acc : 0.715, loss : 0.326
+Done with batch 700, acc : 0.710, loss : 0.327
+Done with batch 750, acc : 0.710, loss : 0.326
+Done with batch 800, acc : 0.710, loss : 0.326
+Done with batch 850, acc : 0.710, loss : 0.325
+Done with batch 900, acc : 0.713, loss : 0.324
+Done with batch 950, acc : 0.712, loss : 0.324
+Done with batch 1000, acc : 0.712, loss : 0.324
+Done with batch 1050, acc : 0.711, loss : 0.323
+Done with batch 1100, acc : 0.713, loss : 0.323
+Done with batch 1150, acc : 0.712, loss : 0.322
+Done with batch 1200, acc : 0.711, loss : 0.322
+Done with batch 1250, acc : 0.702, loss : 0.322
+Done with batch 1300, acc : 0.701, loss : 0.320
+Time taken : 173 , num_correct 3661 num_total 5217 acc 0.702 loss 0.320
+num_correct 674 num_total 1485 acc 0.454 loss 0.324 F1 0.207241
+Done with batch 0, acc : 0.750, loss : 0.222
+Done with batch 50, acc : 0.696, loss : 0.266
+Done with batch 100, acc : 0.705, loss : 0.280
+Done with batch 150, acc : 0.694, loss : 0.295
+Done with batch 200, acc : 0.701, loss : 0.294
+Done with batch 250, acc : 0.699, loss : 0.301
+Done with batch 300, acc : 0.704, loss : 0.300
+Done with batch 350, acc : 0.696, loss : 0.302
+Done with batch 400, acc : 0.693, loss : 0.303
+Done with batch 450, acc : 0.685, loss : 0.306
+Done with batch 500, acc : 0.681, loss : 0.307
+Done with batch 550, acc : 0.683, loss : 0.307
+Done with batch 600, acc : 0.686, loss : 0.307
+Done with batch 650, acc : 0.682, loss : 0.307
+Done with batch 700, acc : 0.677, loss : 0.308
+Done with batch 750, acc : 0.675, loss : 0.307
+Done with batch 800, acc : 0.677, loss : 0.307
+Done with batch 850, acc : 0.679, loss : 0.305
+Done with batch 900, acc : 0.679, loss : 0.304
+Done with batch 950, acc : 0.680, loss : 0.303
+Done with batch 1000, acc : 0.681, loss : 0.303
+Done with batch 1050, acc : 0.685, loss : 0.302
+Done with batch 1100, acc : 0.688, loss : 0.300
+Done with batch 1150, acc : 0.688, loss : 0.300
+Done with batch 1200, acc : 0.691, loss : 0.298
+Done with batch 1250, acc : 0.697, loss : 0.295
+Done with batch 1300, acc : 0.703, loss : 0.292
+Time taken : 174 , num_correct 3669 num_total 5217 acc 0.703 loss 0.292
+num_correct 904 num_total 1485 acc 0.609 loss 0.271 F1 0.369124
+Done with batch 0, acc : 1.000, loss : 0.112
+Done with batch 50, acc : 0.833, loss : 0.214
+Done with batch 100, acc : 0.777, loss : 0.241
+Done with batch 150, acc : 0.737, loss : 0.264
+Done with batch 200, acc : 0.723, loss : 0.263
+Done with batch 250, acc : 0.709, loss : 0.271
+Done with batch 300, acc : 0.708, loss : 0.267
+Done with batch 350, acc : 0.698, loss : 0.273
+Done with batch 400, acc : 0.692, loss : 0.274
+Done with batch 450, acc : 0.686, loss : 0.276
+Done with batch 500, acc : 0.680, loss : 0.277
+Done with batch 550, acc : 0.682, loss : 0.278
+
+
+************************************************************
+
+Setting seeds
+Preparing datasets
+Using class weights :  [3.8043243885040283, 1.0, 9.309523582458496, 8.90886116027832]
+Starting to train
+Done with batch 0, acc : 0.000, loss : 0.106
+Done with batch 50, acc : 0.125, loss : 0.093
+Done with batch 100, acc : 0.175, loss : 0.091
+Done with batch 150, acc : 0.238, loss : 0.089
+Done with batch 200, acc : 0.275, loss : 0.088
+Done with batch 250, acc : 0.297, loss : 0.087
+Done with batch 300, acc : 0.306, loss : 0.089
+Time taken : 45 , num_correct 1580 num_total 5217 acc 0.303 loss 0.090
+num_correct 622 num_total 1485 acc 0.419 loss 0.082 F1 0.231678
+Done with batch 0, acc : 0.188, loss : 0.089
+Done with batch 50, acc : 0.384, loss : 0.084
+Done with batch 100, acc : 0.399, loss : 0.084
+Done with batch 150, acc : 0.398, loss : 0.084
+Done with batch 200, acc : 0.420, loss : 0.083
+Done with batch 250, acc : 0.434, loss : 0.083
+Done with batch 300, acc : 0.439, loss : 0.084
+Time taken : 45 , num_correct 2304 num_total 5217 acc 0.442 loss 0.084
+num_correct 792 num_total 1485 acc 0.533 loss 0.080 F1 0.282034
+Done with batch 0, acc : 0.250, loss : 0.090
+Done with batch 50, acc : 0.478, loss : 0.082
+Done with batch 100, acc : 0.448, loss : 0.082
+Done with batch 150, acc : 0.434, loss : 0.082
+Done with batch 200, acc : 0.453, loss : 0.081
+Done with batch 250, acc : 0.462, loss : 0.081
+Done with batch 300, acc : 0.473, loss : 0.081
+Time taken : 45 , num_correct 2522 num_total 5217 acc 0.483 loss 0.081
+num_correct 794 num_total 1485 acc 0.535 loss 0.077 F1 0.317558
+Done with batch 0, acc : 0.625, loss : 0.084
+Done with batch 50, acc : 0.484, loss : 0.080
+Done with batch 100, acc : 0.472, loss : 0.080
+Done with batch 150, acc : 0.471, loss : 0.079
+Done with batch 200, acc : 0.489, loss : 0.079
+Done with batch 250, acc : 0.503, loss : 0.078
+Done with batch 300, acc : 0.526, loss : 0.078
+Time taken : 45 , num_correct 2819 num_total 5217 acc 0.540 loss 0.077
+num_correct 956 num_total 1485 acc 0.644 loss 0.070 F1 0.412803
+Done with batch 0, acc : 0.438, loss : 0.083
+Done with batch 50, acc : 0.528, loss : 0.077
+Done with batch 100, acc : 0.518, loss : 0.077
+Done with batch 150, acc : 0.516, loss : 0.077
+Done with batch 200, acc : 0.533, loss : 0.076
+Done with batch 250, acc : 0.547, loss : 0.076
+Done with batch 300, acc : 0.568, loss : 0.074
+Time taken : 46 , num_correct 3038 num_total 5217 acc 0.582 loss 0.073
+num_correct 1026 num_total 1485 acc 0.691 loss 0.066 F1 0.448332
+Done with batch 0, acc : 0.438, loss : 0.086
+Done with batch 50, acc : 0.598, loss : 0.074
+Done with batch 100, acc : 0.571, loss : 0.075
+Done with batch 150, acc : 0.560, loss : 0.075
+Done with batch 200, acc : 0.573, loss : 0.074
+Done with batch 250, acc : 0.585, loss : 0.074
+Done with batch 300, acc : 0.604, loss : 0.072
+Time taken : 46 , num_correct 3200 num_total 5217 acc 0.613 loss 0.071
+num_correct 1048 num_total 1485 acc 0.706 loss 0.063 F1 0.449862
+Done with batch 0, acc : 0.875, loss : 0.077
+Done with batch 50, acc : 0.623, loss : 0.073
+Done with batch 100, acc : 0.584, loss : 0.075
+Done with batch 150, acc : 0.570, loss : 0.074
+Done with batch 200, acc : 0.582, loss : 0.073
+Done with batch 250, acc : 0.593, loss : 0.072
+Done with batch 300, acc : 0.607, loss : 0.071
+Time taken : 45 , num_correct 3216 num_total 5217 acc 0.616 loss 0.070
+num_correct 1049 num_total 1485 acc 0.706 loss 0.061 F1 0.474422
+Done with batch 0, acc : 0.938, loss : 0.069
+Done with batch 50, acc : 0.647, loss : 0.070
+Done with batch 100, acc : 0.597, loss : 0.072
+Done with batch 150, acc : 0.587, loss : 0.073
+Done with batch 200, acc : 0.596, loss : 0.071
+Done with batch 250, acc : 0.604, loss : 0.071
+Done with batch 300, acc : 0.618, loss : 0.070
+Time taken : 45 , num_correct 3273 num_total 5217 acc 0.627 loss 0.068
+num_correct 1053 num_total 1485 acc 0.709 loss 0.059 F1 0.489676
+Done with batch 0, acc : 0.938, loss : 0.072
+Done with batch 50, acc : 0.627, loss : 0.071
+Done with batch 100, acc : 0.579, loss : 0.072
+Done with batch 150, acc : 0.560, loss : 0.072
+Done with batch 200, acc : 0.574, loss : 0.071
+Done with batch 250, acc : 0.583, loss : 0.070
+Done with batch 300, acc : 0.597, loss : 0.069
+Time taken : 46 , num_correct 3183 num_total 5217 acc 0.610 loss 0.068
+num_correct 1065 num_total 1485 acc 0.717 loss 0.058 F1 0.500513
+Done with batch 0, acc : 0.938, loss : 0.069
+Done with batch 50, acc : 0.672, loss : 0.068
+Done with batch 100, acc : 0.619, loss : 0.070
+Done with batch 150, acc : 0.599, loss : 0.071
+Done with batch 200, acc : 0.607, loss : 0.069
+Done with batch 250, acc : 0.613, loss : 0.069
+Done with batch 300, acc : 0.618, loss : 0.067
+Time taken : 46 , num_correct 3278 num_total 5217 acc 0.628 loss 0.066
+num_correct 1059 num_total 1485 acc 0.713 loss 0.057 F1 0.508168
+Done with batch 0, acc : 0.875, loss : 0.067
+Done with batch 50, acc : 0.676, loss : 0.066
+Done with batch 100, acc : 0.609, loss : 0.069
+Done with batch 150, acc : 0.587, loss : 0.069
+Done with batch 200, acc : 0.603, loss : 0.068
+Done with batch 250, acc : 0.610, loss : 0.067
+Done with batch 300, acc : 0.619, loss : 0.066
+Time taken : 46 , num_correct 3285 num_total 5217 acc 0.630 loss 0.064
+num_correct 1061 num_total 1485 acc 0.714 loss 0.056 F1 0.511822
+Done with batch 0, acc : 0.938, loss : 0.056
+Done with batch 50, acc : 0.697, loss : 0.065
+Done with batch 100, acc : 0.627, loss : 0.068
+Done with batch 150, acc : 0.603, loss : 0.069
+Done with batch 200, acc : 0.613, loss : 0.067
+Done with batch 250, acc : 0.616, loss : 0.067
+Done with batch 300, acc : 0.623, loss : 0.065
+Time taken : 45 , num_correct 3299 num_total 5217 acc 0.632 loss 0.064
+num_correct 1053 num_total 1485 acc 0.709 loss 0.055 F1 0.524491
+Done with batch 0, acc : 0.938, loss : 0.057
+Done with batch 50, acc : 0.721, loss : 0.062
+Done with batch 100, acc : 0.629, loss : 0.067
+Done with batch 150, acc : 0.611, loss : 0.067
+Done with batch 200, acc : 0.620, loss : 0.066
+Done with batch 250, acc : 0.623, loss : 0.066
+Done with batch 300, acc : 0.627, loss : 0.064
+Time taken : 45 , num_correct 3326 num_total 5217 acc 0.638 loss 0.062
+num_correct 1044 num_total 1485 acc 0.703 loss 0.054 F1 0.520531
+Done with batch 0, acc : 0.938, loss : 0.063
+Done with batch 50, acc : 0.714, loss : 0.060
+Done with batch 100, acc : 0.632, loss : 0.065
+Done with batch 150, acc : 0.610, loss : 0.066
+Done with batch 200, acc : 0.611, loss : 0.065
+Done with batch 250, acc : 0.616, loss : 0.065
+Done with batch 300, acc : 0.626, loss : 0.063
+Time taken : 45 , num_correct 3322 num_total 5217 acc 0.637 loss 0.061
+num_correct 1016 num_total 1485 acc 0.684 loss 0.054 F1 0.506948
+Done with batch 0, acc : 0.938, loss : 0.068
+Done with batch 50, acc : 0.702, loss : 0.061
+Done with batch 100, acc : 0.619, loss : 0.065
+Done with batch 150, acc : 0.601, loss : 0.066
+Done with batch 200, acc : 0.611, loss : 0.065
+Done with batch 250, acc : 0.617, loss : 0.064
+Done with batch 300, acc : 0.629, loss : 0.062
+Time taken : 46 , num_correct 3340 num_total 5217 acc 0.640 loss 0.061
+num_correct 1025 num_total 1485 acc 0.690 loss 0.053 F1 0.513457
+Done with batch 0, acc : 0.938, loss : 0.062
+Done with batch 50, acc : 0.721, loss : 0.060
+Done with batch 100, acc : 0.631, loss : 0.063
+Done with batch 150, acc : 0.617, loss : 0.064
+Done with batch 200, acc : 0.626, loss : 0.063
+Done with batch 250, acc : 0.633, loss : 0.063
+Done with batch 300, acc : 0.644, loss : 0.061
+Time taken : 45 , num_correct 3413 num_total 5217 acc 0.654 loss 0.059
+num_correct 998 num_total 1485 acc 0.672 loss 0.053 F1 0.502459
+Done with batch 0, acc : 0.938, loss : 0.062
+Done with batch 50, acc : 0.723, loss : 0.057
+Done with batch 100, acc : 0.630, loss : 0.063
+Done with batch 150, acc : 0.613, loss : 0.064
+Done with batch 200, acc : 0.621, loss : 0.063
+Done with batch 250, acc : 0.629, loss : 0.062
+Done with batch 300, acc : 0.640, loss : 0.060
+Time taken : 45 , num_correct 3394 num_total 5217 acc 0.651 loss 0.058
+num_correct 1048 num_total 1485 acc 0.706 loss 0.052 F1 0.523603
+Done with batch 0, acc : 0.938, loss : 0.064
+Done with batch 50, acc : 0.743, loss : 0.056
+Done with batch 100, acc : 0.667, loss : 0.061
+Done with batch 150, acc : 0.636, loss : 0.063
+Done with batch 200, acc : 0.644, loss : 0.061
+Done with batch 250, acc : 0.649, loss : 0.061
+Done with batch 300, acc : 0.657, loss : 0.059
+Time taken : 45 , num_correct 3488 num_total 5217 acc 0.669 loss 0.058
+num_correct 1040 num_total 1485 acc 0.700 loss 0.052 F1 0.520964
+Done with batch 0, acc : 0.938, loss : 0.064
+Done with batch 50, acc : 0.751, loss : 0.056
+Done with batch 100, acc : 0.656, loss : 0.061
+Done with batch 150, acc : 0.635, loss : 0.062
+Done with batch 200, acc : 0.642, loss : 0.061
+Done with batch 250, acc : 0.650, loss : 0.060
+Done with batch 300, acc : 0.661, loss : 0.058
+Time taken : 45 , num_correct 3511 num_total 5217 acc 0.673 loss 0.056
+num_correct 1011 num_total 1485 acc 0.681 loss 0.052 F1 0.509340
+Done with batch 0, acc : 0.938, loss : 0.060
+Done with batch 50, acc : 0.745, loss : 0.053
+Done with batch 100, acc : 0.671, loss : 0.059
+Done with batch 150, acc : 0.644, loss : 0.061
+Done with batch 200, acc : 0.649, loss : 0.060
+Done with batch 250, acc : 0.657, loss : 0.059
+Done with batch 300, acc : 0.666, loss : 0.057
+Time taken : 45 , num_correct 3534 num_total 5217 acc 0.677 loss 0.056
+num_correct 1044 num_total 1485 acc 0.703 loss 0.052 F1 0.520705
+Done with batch 0, acc : 0.938, loss : 0.071
+Done with batch 50, acc : 0.768, loss : 0.052
+Done with batch 100, acc : 0.667, loss : 0.058
+Done with batch 150, acc : 0.647, loss : 0.060
+Done with batch 200, acc : 0.655, loss : 0.059
+Done with batch 250, acc : 0.658, loss : 0.059
+Done with batch 300, acc : 0.670, loss : 0.057
+Time taken : 45 , num_correct 3561 num_total 5217 acc 0.683 loss 0.055
+num_correct 1024 num_total 1485 acc 0.690 loss 0.052 F1 0.511550
+Done with batch 0, acc : 0.938, loss : 0.074
+Done with batch 50, acc : 0.768, loss : 0.053
+Done with batch 100, acc : 0.692, loss : 0.058
+Done with batch 150, acc : 0.666, loss : 0.059
+Done with batch 200, acc : 0.669, loss : 0.058
+Done with batch 250, acc : 0.674, loss : 0.057
+Done with batch 300, acc : 0.684, loss : 0.056
+Time taken : 45 , num_correct 3618 num_total 5217 acc 0.694 loss 0.054
+num_correct 1016 num_total 1485 acc 0.684 loss 0.053 F1 0.507254
+Done with batch 0, acc : 0.938, loss : 0.070
+Done with batch 50, acc : 0.761, loss : 0.052
+Done with batch 100, acc : 0.698, loss : 0.056
+Done with batch 150, acc : 0.676, loss : 0.058
+Done with batch 200, acc : 0.675, loss : 0.057
+Done with batch 250, acc : 0.682, loss : 0.057
+Done with batch 300, acc : 0.691, loss : 0.055
+Time taken : 46 , num_correct 3655 num_total 5217 acc 0.701 loss 0.053
+num_correct 1011 num_total 1485 acc 0.681 loss 0.053 F1 0.510594
+Done with batch 0, acc : 0.938, loss : 0.066
+Done with batch 50, acc : 0.778, loss : 0.048
+Done with batch 100, acc : 0.696, loss : 0.055
+Done with batch 150, acc : 0.675, loss : 0.057
+Done with batch 200, acc : 0.681, loss : 0.057
+Done with batch 250, acc : 0.687, loss : 0.056
+Done with batch 300, acc : 0.697, loss : 0.054
+Time taken : 45 , num_correct 3689 num_total 5217 acc 0.707 loss 0.053
+num_correct 1025 num_total 1485 acc 0.690 loss 0.054 F1 0.516061
+Done with batch 0, acc : 0.938, loss : 0.080
+Done with batch 50, acc : 0.789, loss : 0.049
+Done with batch 100, acc : 0.720, loss : 0.055
+Done with batch 150, acc : 0.703, loss : 0.057
+Done with batch 200, acc : 0.704, loss : 0.057
+Done with batch 250, acc : 0.707, loss : 0.056
+Done with batch 300, acc : 0.713, loss : 0.054
+Time taken : 45 , num_correct 3758 num_total 5217 acc 0.720 loss 0.053
+num_correct 1038 num_total 1485 acc 0.699 loss 0.054 F1 0.514569
+Done with batch 0, acc : 0.938, loss : 0.077
+Done with batch 50, acc : 0.795, loss : 0.049
+Done with batch 100, acc : 0.725, loss : 0.054
+Done with batch 150, acc : 0.703, loss : 0.057
+Done with batch 200, acc : 0.708, loss : 0.056
+Done with batch 250, acc : 0.707, loss : 0.055
+Done with batch 300, acc : 0.714, loss : 0.053
+Time taken : 46 , num_correct 3775 num_total 5217 acc 0.724 loss 0.052
+num_correct 1058 num_total 1485 acc 0.712 loss 0.055 F1 0.521012
+Done with batch 0, acc : 0.938, loss : 0.083
+Done with batch 50, acc : 0.808, loss : 0.047
+Done with batch 100, acc : 0.723, loss : 0.053
+Done with batch 150, acc : 0.701, loss : 0.056
+Done with batch 200, acc : 0.707, loss : 0.055
+Done with batch 250, acc : 0.711, loss : 0.055
+Done with batch 300, acc : 0.723, loss : 0.053
+Time taken : 45 , num_correct 3830 num_total 5217 acc 0.734 loss 0.051
+num_correct 1053 num_total 1485 acc 0.709 loss 0.056 F1 0.519432
+Done with batch 0, acc : 0.938, loss : 0.079
+Done with batch 50, acc : 0.805, loss : 0.046
+Done with batch 100, acc : 0.728, loss : 0.053
+Done with batch 150, acc : 0.711, loss : 0.056
+Done with batch 200, acc : 0.721, loss : 0.055
+Done with batch 250, acc : 0.725, loss : 0.055
+Done with batch 300, acc : 0.729, loss : 0.053
+Time taken : 46 , num_correct 3854 num_total 5217 acc 0.739 loss 0.051
+num_correct 1031 num_total 1485 acc 0.694 loss 0.057 F1 0.508822
+Done with batch 0, acc : 0.938, loss : 0.086
+Done with batch 50, acc : 0.808, loss : 0.047
+Done with batch 100, acc : 0.748, loss : 0.053
+Done with batch 150, acc : 0.725, loss : 0.055
+Done with batch 200, acc : 0.729, loss : 0.054
+Done with batch 250, acc : 0.734, loss : 0.053
+Done with batch 300, acc : 0.739, loss : 0.052
+Time taken : 45 , num_correct 3908 num_total 5217 acc 0.749 loss 0.050
+num_correct 1073 num_total 1485 acc 0.723 loss 0.058 F1 0.525870
+Done with batch 0, acc : 0.938, loss : 0.087
+Done with batch 50, acc : 0.826, loss : 0.045
+Done with batch 100, acc : 0.758, loss : 0.052
+Done with batch 150, acc : 0.734, loss : 0.054
+Done with batch 200, acc : 0.735, loss : 0.054
+Done with batch 250, acc : 0.736, loss : 0.054
+Done with batch 300, acc : 0.741, loss : 0.052
+Time taken : 45 , num_correct 3912 num_total 5217 acc 0.750 loss 0.050
+num_correct 1060 num_total 1485 acc 0.714 loss 0.058 F1 0.512558
+Done with batch 0, acc : 0.938, loss : 0.084
+Done with batch 50, acc : 0.833, loss : 0.047
+Done with batch 100, acc : 0.756, loss : 0.052
+Done with batch 150, acc : 0.736, loss : 0.056
+Done with batch 200, acc : 0.742, loss : 0.055
+Done with batch 250, acc : 0.742, loss : 0.054
+Done with batch 300, acc : 0.746, loss : 0.052
+Time taken : 45 , num_correct 3943 num_total 5217 acc 0.756 loss 0.050
+num_correct 1074 num_total 1485 acc 0.723 loss 0.061 F1 0.518937
+Done with batch 0, acc : 0.938, loss : 0.075
+Done with batch 50, acc : 0.822, loss : 0.046
+Done with batch 100, acc : 0.775, loss : 0.051
+Done with batch 150, acc : 0.758, loss : 0.055
+Done with batch 200, acc : 0.757, loss : 0.054
+Done with batch 250, acc : 0.759, loss : 0.054
+Done with batch 300, acc : 0.763, loss : 0.052
+Time taken : 45 , num_correct 4027 num_total 5217 acc 0.772 loss 0.050
+num_correct 1077 num_total 1485 acc 0.725 loss 0.064 F1 0.519214
+Done with batch 0, acc : 0.938, loss : 0.099
+Done with batch 50, acc : 0.830, loss : 0.046
+Done with batch 100, acc : 0.772, loss : 0.052
+Done with batch 150, acc : 0.756, loss : 0.055
+Done with batch 200, acc : 0.758, loss : 0.054
+Done with batch 250, acc : 0.762, loss : 0.054
+Done with batch 300, acc : 0.766, loss : 0.052
+Time taken : 45 , num_correct 4048 num_total 5217 acc 0.776 loss 0.050
+num_correct 1088 num_total 1485 acc 0.733 loss 0.064 F1 0.524407
+Done with batch 0, acc : 0.938, loss : 0.095
+Done with batch 50, acc : 0.849, loss : 0.046
+Done with batch 100, acc : 0.787, loss : 0.053
+Done with batch 150, acc : 0.769, loss : 0.056
+Done with batch 200, acc : 0.770, loss : 0.055
+Done with batch 250, acc : 0.769, loss : 0.054
+Done with batch 300, acc : 0.776, loss : 0.052
+Time taken : 45 , num_correct 4090 num_total 5217 acc 0.784 loss 0.050
+num_correct 1111 num_total 1485 acc 0.748 loss 0.066 F1 0.531646
+Done with batch 0, acc : 0.938, loss : 0.083
+Done with batch 50, acc : 0.833, loss : 0.045
+Done with batch 100, acc : 0.794, loss : 0.051
+Done with batch 150, acc : 0.769, loss : 0.055
+Done with batch 200, acc : 0.768, loss : 0.054
+Done with batch 250, acc : 0.771, loss : 0.054
+Done with batch 300, acc : 0.775, loss : 0.052
+Time taken : 45 , num_correct 4091 num_total 5217 acc 0.784 loss 0.050
+num_correct 1084 num_total 1485 acc 0.730 loss 0.068 F1 0.517104
+Done with batch 0, acc : 0.938, loss : 0.081
+Done with batch 50, acc : 0.843, loss : 0.045
+Done with batch 100, acc : 0.798, loss : 0.053
+Done with batch 150, acc : 0.773, loss : 0.056
+Done with batch 200, acc : 0.775, loss : 0.055
+Done with batch 250, acc : 0.778, loss : 0.054
+Done with batch 300, acc : 0.783, loss : 0.052
+Time taken : 45 , num_correct 4116 num_total 5217 acc 0.789 loss 0.050
+num_correct 1110 num_total 1485 acc 0.747 loss 0.070 F1 0.527516
+Done with batch 0, acc : 0.938, loss : 0.094
+Done with batch 50, acc : 0.846, loss : 0.046
+Done with batch 100, acc : 0.788, loss : 0.052
+Done with batch 150, acc : 0.769, loss : 0.056
+Done with batch 200, acc : 0.772, loss : 0.055
+Done with batch 250, acc : 0.777, loss : 0.055
+Done with batch 300, acc : 0.781, loss : 0.052
+Time taken : 45 , num_correct 4119 num_total 5217 acc 0.790 loss 0.050
+num_correct 1084 num_total 1485 acc 0.730 loss 0.070 F1 0.524774
+Done with batch 0, acc : 0.938, loss : 0.067
+Done with batch 50, acc : 0.847, loss : 0.044
+Done with batch 100, acc : 0.799, loss : 0.051
+Done with batch 150, acc : 0.774, loss : 0.056
+Done with batch 200, acc : 0.780, loss : 0.056
+Done with batch 250, acc : 0.783, loss : 0.055
+Done with batch 300, acc : 0.787, loss : 0.052
+Time taken : 45 , num_correct 4142 num_total 5217 acc 0.794 loss 0.050
+num_correct 1113 num_total 1485 acc 0.749 loss 0.074 F1 0.527993
+Done with batch 0, acc : 0.938, loss : 0.080
+Done with batch 50, acc : 0.852, loss : 0.048
+Done with batch 100, acc : 0.812, loss : 0.053
+Done with batch 150, acc : 0.793, loss : 0.057
+Done with batch 200, acc : 0.794, loss : 0.057
+Done with batch 250, acc : 0.794, loss : 0.056
+Done with batch 300, acc : 0.795, loss : 0.053
+Time taken : 45 , num_correct 4193 num_total 5217 acc 0.804 loss 0.051
+num_correct 1111 num_total 1485 acc 0.748 loss 0.074 F1 0.524457
+Done with batch 0, acc : 0.938, loss : 0.081
+Done with batch 50, acc : 0.860, loss : 0.046
+Done with batch 100, acc : 0.814, loss : 0.052
+Done with batch 150, acc : 0.793, loss : 0.057
+Done with batch 200, acc : 0.797, loss : 0.056
+Done with batch 250, acc : 0.795, loss : 0.055
+Done with batch 300, acc : 0.800, loss : 0.052
+Time taken : 46 , num_correct 4214 num_total 5217 acc 0.808 loss 0.050
+num_correct 1092 num_total 1485 acc 0.735 loss 0.078 F1 0.512672
+Done with batch 0, acc : 0.938, loss : 0.071
+Done with batch 50, acc : 0.871, loss : 0.044
+Done with batch 100, acc : 0.822, loss : 0.052
+Done with batch 150, acc : 0.800, loss : 0.056
+Done with batch 200, acc : 0.798, loss : 0.056
+Done with batch 250, acc : 0.801, loss : 0.056
+Done with batch 300, acc : 0.808, loss : 0.054
+Time taken : 46 , num_correct 4252 num_total 5217 acc 0.815 loss 0.051
+num_correct 1102 num_total 1485 acc 0.742 loss 0.079 F1 0.522849
+Done with batch 0, acc : 0.938, loss : 0.036
+Done with batch 50, acc : 0.855, loss : 0.046
+Done with batch 100, acc : 0.819, loss : 0.052
+Done with batch 150, acc : 0.797, loss : 0.057
+Done with batch 200, acc : 0.798, loss : 0.056
+Done with batch 250, acc : 0.801, loss : 0.055
+Done with batch 300, acc : 0.804, loss : 0.053
+Time taken : 45 , num_correct 4236 num_total 5217 acc 0.812 loss 0.051
+num_correct 1095 num_total 1485 acc 0.737 loss 0.081 F1 0.513832
+Done with batch 0, acc : 0.938, loss : 0.028
+Done with batch 50, acc : 0.855, loss : 0.048
+Done with batch 100, acc : 0.817, loss : 0.054
+Done with batch 150, acc : 0.803, loss : 0.059
+Done with batch 200, acc : 0.803, loss : 0.057
+Done with batch 250, acc : 0.801, loss : 0.058
+Done with batch 300, acc : 0.806, loss : 0.054
+Time taken : 45 , num_correct 4245 num_total 5217 acc 0.814 loss 0.052
+num_correct 1120 num_total 1485 acc 0.754 loss 0.087 F1 0.508874
+Done with batch 0, acc : 0.938, loss : 0.041
+Done with batch 50, acc : 0.876, loss : 0.043
+Done with batch 100, acc : 0.830, loss : 0.052
+Done with batch 150, acc : 0.809, loss : 0.058
+Done with batch 200, acc : 0.811, loss : 0.057
+Done with batch 250, acc : 0.814, loss : 0.057
+Done with batch 300, acc : 0.819, loss : 0.054
+Time taken : 45 , num_correct 4305 num_total 5217 acc 0.825 loss 0.052
+num_correct 1100 num_total 1485 acc 0.741 loss 0.086 F1 0.507319
+Done with batch 0, acc : 0.938, loss : 0.018
+Done with batch 50, acc : 0.873, loss : 0.043
+Done with batch 100, acc : 0.830, loss : 0.052
+Done with batch 150, acc : 0.813, loss : 0.057
+Done with batch 200, acc : 0.813, loss : 0.057
+Done with batch 250, acc : 0.813, loss : 0.056
+Done with batch 300, acc : 0.818, loss : 0.053
+Time taken : 46 , num_correct 4307 num_total 5217 acc 0.826 loss 0.051
+num_correct 1108 num_total 1485 acc 0.746 loss 0.087 F1 0.513791
+Done with batch 0, acc : 1.000, loss : 0.006
+Done with batch 50, acc : 0.876, loss : 0.044
+Done with batch 100, acc : 0.847, loss : 0.054
+Done with batch 150, acc : 0.827, loss : 0.059
+Done with batch 200, acc : 0.825, loss : 0.058
+Done with batch 250, acc : 0.824, loss : 0.058
+Done with batch 300, acc : 0.827, loss : 0.054
+Time taken : 45 , num_correct 4355 num_total 5217 acc 0.835 loss 0.052
+
+
+=========================================================================
+
+
+
+Setting seeds
+Preparing datasets
+Using class weights :  [3.8043243885040283, 1.0, 9.309523582458496, 8.90886116027832]
+Starting to train
+Done with batch 0, acc : 0.688, loss : 0.086
+Done with batch 50, acc : 0.722, loss : 0.086
+Done with batch 100, acc : 0.692, loss : 0.087
+Done with batch 150, acc : 0.670, loss : 0.087
+Done with batch 200, acc : 0.668, loss : 0.086
+Done with batch 250, acc : 0.666, loss : 0.086
+Done with batch 300, acc : 0.654, loss : 0.086
+Time taken : 45 , num_correct 3345 num_total 5217 acc 0.641 loss 0.087
+num_correct 1184 num_total 1485 acc 0.797 loss 0.084 F1 0.268570
+Done with batch 0, acc : 0.938, loss : 0.084
+Done with batch 50, acc : 0.749, loss : 0.085
+Done with batch 100, acc : 0.710, loss : 0.086
+Done with batch 150, acc : 0.683, loss : 0.086
+Done with batch 200, acc : 0.681, loss : 0.086
+Done with batch 250, acc : 0.680, loss : 0.086
+Done with batch 300, acc : 0.673, loss : 0.085
+Time taken : 46 , num_correct 3533 num_total 5217 acc 0.677 loss 0.085
+num_correct 1195 num_total 1485 acc 0.805 loss 0.082 F1 0.328373
+Done with batch 0, acc : 0.938, loss : 0.083
+Done with batch 50, acc : 0.735, loss : 0.085
+Done with batch 100, acc : 0.692, loss : 0.085
+Done with batch 150, acc : 0.664, loss : 0.086
+Done with batch 200, acc : 0.659, loss : 0.085
+Done with batch 250, acc : 0.659, loss : 0.085
+Done with batch 300, acc : 0.668, loss : 0.085
+Time taken : 45 , num_correct 3531 num_total 5217 acc 0.677 loss 0.084
+num_correct 1124 num_total 1485 acc 0.757 loss 0.081 F1 0.384355
+Done with batch 0, acc : 0.875, loss : 0.081
+Done with batch 50, acc : 0.735, loss : 0.084
+Done with batch 100, acc : 0.679, loss : 0.085
+Done with batch 150, acc : 0.647, loss : 0.085
+Done with batch 200, acc : 0.643, loss : 0.085
+Done with batch 250, acc : 0.645, loss : 0.084
+Done with batch 300, acc : 0.661, loss : 0.084
+Time taken : 45 , num_correct 3504 num_total 5217 acc 0.672 loss 0.083
+num_correct 1175 num_total 1485 acc 0.791 loss 0.079 F1 0.432352
+Done with batch 0, acc : 0.875, loss : 0.081
+Done with batch 50, acc : 0.744, loss : 0.082
+Done with batch 100, acc : 0.645, loss : 0.083
+Done with batch 150, acc : 0.582, loss : 0.083
+Done with batch 200, acc : 0.575, loss : 0.083
+Done with batch 250, acc : 0.590, loss : 0.083
+Done with batch 300, acc : 0.615, loss : 0.082
+Time taken : 46 , num_correct 3287 num_total 5217 acc 0.630 loss 0.081
+num_correct 1173 num_total 1485 acc 0.790 loss 0.077 F1 0.462747
+Done with batch 0, acc : 0.938, loss : 0.079
+Done with batch 50, acc : 0.746, loss : 0.080
+Done with batch 100, acc : 0.649, loss : 0.081
+Done with batch 150, acc : 0.600, loss : 0.080
+Done with batch 200, acc : 0.596, loss : 0.080
+Done with batch 250, acc : 0.608, loss : 0.080
+Done with batch 300, acc : 0.631, loss : 0.079
+Time taken : 46 , num_correct 3356 num_total 5217 acc 0.643 loss 0.078
+num_correct 1112 num_total 1485 acc 0.749 loss 0.074 F1 0.459325
+Done with batch 0, acc : 0.812, loss : 0.080
+Done with batch 50, acc : 0.685, loss : 0.077
+Done with batch 100, acc : 0.608, loss : 0.078
+Done with batch 150, acc : 0.607, loss : 0.078
+Done with batch 200, acc : 0.618, loss : 0.078
+Done with batch 250, acc : 0.627, loss : 0.078
+Done with batch 300, acc : 0.648, loss : 0.076
+Time taken : 46 , num_correct 3445 num_total 5217 acc 0.660 loss 0.075
+num_correct 1114 num_total 1485 acc 0.750 loss 0.070 F1 0.458247
+Done with batch 0, acc : 0.875, loss : 0.074
+Done with batch 50, acc : 0.688, loss : 0.075
+Done with batch 100, acc : 0.639, loss : 0.076
+Done with batch 150, acc : 0.613, loss : 0.076
+Done with batch 200, acc : 0.623, loss : 0.076
+Done with batch 250, acc : 0.634, loss : 0.076
+Done with batch 300, acc : 0.649, loss : 0.074
+Time taken : 46 , num_correct 3459 num_total 5217 acc 0.663 loss 0.073
+num_correct 1103 num_total 1485 acc 0.743 loss 0.067 F1 0.482025
+Done with batch 0, acc : 0.875, loss : 0.071
+Done with batch 50, acc : 0.684, loss : 0.073
+Done with batch 100, acc : 0.648, loss : 0.074
+Done with batch 150, acc : 0.626, loss : 0.075
+Done with batch 200, acc : 0.632, loss : 0.074
+Done with batch 250, acc : 0.642, loss : 0.074
+Done with batch 300, acc : 0.660, loss : 0.072
+Time taken : 46 , num_correct 3511 num_total 5217 acc 0.673 loss 0.071
+num_correct 1099 num_total 1485 acc 0.740 loss 0.064 F1 0.462896
+Done with batch 0, acc : 0.812, loss : 0.068
+Done with batch 50, acc : 0.679, loss : 0.072
+Done with batch 100, acc : 0.626, loss : 0.073
+Done with batch 150, acc : 0.617, loss : 0.073
+Done with batch 200, acc : 0.632, loss : 0.072
+Done with batch 250, acc : 0.642, loss : 0.072
+Done with batch 300, acc : 0.658, loss : 0.070
+Time taken : 46 , num_correct 3499 num_total 5217 acc 0.671 loss 0.069
+num_correct 1076 num_total 1485 acc 0.725 loss 0.063 F1 0.470517
+Done with batch 0, acc : 0.938, loss : 0.068
+Done with batch 50, acc : 0.679, loss : 0.070
+Done with batch 100, acc : 0.635, loss : 0.072
+Done with batch 150, acc : 0.627, loss : 0.072
+Done with batch 200, acc : 0.630, loss : 0.071
+Done with batch 250, acc : 0.640, loss : 0.071
+Done with batch 300, acc : 0.661, loss : 0.069
+Time taken : 46 , num_correct 3523 num_total 5217 acc 0.675 loss 0.068
+num_correct 1102 num_total 1485 acc 0.742 loss 0.061 F1 0.483913
+Done with batch 0, acc : 0.938, loss : 0.069
+Done with batch 50, acc : 0.695, loss : 0.069
+Done with batch 100, acc : 0.653, loss : 0.071
+Done with batch 150, acc : 0.641, loss : 0.071
+Done with batch 200, acc : 0.646, loss : 0.070
+Done with batch 250, acc : 0.656, loss : 0.070
+Done with batch 300, acc : 0.673, loss : 0.068
+Time taken : 46 , num_correct 3577 num_total 5217 acc 0.686 loss 0.067
+num_correct 1111 num_total 1485 acc 0.748 loss 0.059 F1 0.506442
+Done with batch 0, acc : 0.938, loss : 0.065
+Done with batch 50, acc : 0.727, loss : 0.068
+Done with batch 100, acc : 0.644, loss : 0.070
+Done with batch 150, acc : 0.630, loss : 0.070
+Done with batch 200, acc : 0.644, loss : 0.069
+Done with batch 250, acc : 0.650, loss : 0.069
+Done with batch 300, acc : 0.666, loss : 0.067
+Time taken : 46 , num_correct 3543 num_total 5217 acc 0.679 loss 0.065
+num_correct 1049 num_total 1485 acc 0.706 loss 0.059 F1 0.513430
+Done with batch 0, acc : 0.938, loss : 0.064
+Done with batch 50, acc : 0.714, loss : 0.066
+Done with batch 100, acc : 0.639, loss : 0.069
+Done with batch 150, acc : 0.619, loss : 0.069
+Done with batch 200, acc : 0.633, loss : 0.068
+Done with batch 250, acc : 0.643, loss : 0.068
+Done with batch 300, acc : 0.658, loss : 0.066
+Time taken : 46 , num_correct 3505 num_total 5217 acc 0.672 loss 0.065
+num_correct 1049 num_total 1485 acc 0.706 loss 0.058 F1 0.513034
+Done with batch 0, acc : 0.938, loss : 0.064
+Done with batch 50, acc : 0.724, loss : 0.065
+Done with batch 100, acc : 0.660, loss : 0.067
+Done with batch 150, acc : 0.643, loss : 0.068
+Done with batch 200, acc : 0.652, loss : 0.067
+Done with batch 250, acc : 0.660, loss : 0.066
+Done with batch 300, acc : 0.672, loss : 0.065
+Time taken : 46 , num_correct 3563 num_total 5217 acc 0.683 loss 0.063
+num_correct 1057 num_total 1485 acc 0.712 loss 0.057 F1 0.526252
+Done with batch 0, acc : 0.938, loss : 0.067
+Done with batch 50, acc : 0.737, loss : 0.064
+Done with batch 100, acc : 0.666, loss : 0.067
+Done with batch 150, acc : 0.650, loss : 0.067
+Done with batch 200, acc : 0.661, loss : 0.066
+Done with batch 250, acc : 0.672, loss : 0.065
+Done with batch 300, acc : 0.684, loss : 0.064
+Time taken : 46 , num_correct 3626 num_total 5217 acc 0.695 loss 0.062
+num_correct 1034 num_total 1485 acc 0.696 loss 0.056 F1 0.509608
+Done with batch 0, acc : 0.938, loss : 0.067
+Done with batch 50, acc : 0.739, loss : 0.061
+Done with batch 100, acc : 0.673, loss : 0.064
+Done with batch 150, acc : 0.651, loss : 0.065
+Done with batch 200, acc : 0.664, loss : 0.064
+Done with batch 250, acc : 0.673, loss : 0.064
+Done with batch 300, acc : 0.680, loss : 0.062
+Time taken : 46 , num_correct 3602 num_total 5217 acc 0.690 loss 0.061
+num_correct 1040 num_total 1485 acc 0.700 loss 0.055 F1 0.516640
+Done with batch 0, acc : 0.938, loss : 0.068
+Done with batch 50, acc : 0.755, loss : 0.061
+Done with batch 100, acc : 0.691, loss : 0.064
+Done with batch 150, acc : 0.671, loss : 0.065
+Done with batch 200, acc : 0.676, loss : 0.064
+Done with batch 250, acc : 0.685, loss : 0.063
+Done with batch 300, acc : 0.695, loss : 0.061
+Time taken : 46 , num_correct 3673 num_total 5217 acc 0.704 loss 0.060
+num_correct 1018 num_total 1485 acc 0.686 loss 0.055 F1 0.501645
+Done with batch 0, acc : 0.938, loss : 0.066
+Done with batch 50, acc : 0.750, loss : 0.060
+Done with batch 100, acc : 0.686, loss : 0.063
+Done with batch 150, acc : 0.659, loss : 0.064
+Done with batch 200, acc : 0.671, loss : 0.063
+Done with batch 250, acc : 0.678, loss : 0.062
+Done with batch 300, acc : 0.688, loss : 0.060
+Time taken : 46 , num_correct 3653 num_total 5217 acc 0.700 loss 0.059
+num_correct 1056 num_total 1485 acc 0.711 loss 0.054 F1 0.516651
+Done with batch 0, acc : 0.938, loss : 0.064
+Done with batch 50, acc : 0.783, loss : 0.057
+Done with batch 100, acc : 0.715, loss : 0.061
+Done with batch 150, acc : 0.692, loss : 0.062
+Done with batch 200, acc : 0.693, loss : 0.061
+Done with batch 250, acc : 0.697, loss : 0.061
+Done with batch 300, acc : 0.701, loss : 0.059
+Time taken : 46 , num_correct 3698 num_total 5217 acc 0.709 loss 0.058
+num_correct 1016 num_total 1485 acc 0.684 loss 0.054 F1 0.503052
+Done with batch 0, acc : 0.938, loss : 0.067
+Done with batch 50, acc : 0.776, loss : 0.056
+Done with batch 100, acc : 0.701, loss : 0.060
+Done with batch 150, acc : 0.674, loss : 0.062
+Done with batch 200, acc : 0.682, loss : 0.061
+Done with batch 250, acc : 0.683, loss : 0.060
+Done with batch 300, acc : 0.697, loss : 0.058
+Time taken : 46 , num_correct 3677 num_total 5217 acc 0.705 loss 0.056
+num_correct 981 num_total 1485 acc 0.661 loss 0.054 F1 0.495021
+Done with batch 0, acc : 0.938, loss : 0.068
+Done with batch 50, acc : 0.794, loss : 0.053
+Done with batch 100, acc : 0.718, loss : 0.058
+Done with batch 150, acc : 0.699, loss : 0.059
+Done with batch 200, acc : 0.702, loss : 0.059
+Done with batch 250, acc : 0.708, loss : 0.058
+Done with batch 300, acc : 0.712, loss : 0.057
+Time taken : 46 , num_correct 3751 num_total 5217 acc 0.719 loss 0.055
+num_correct 1012 num_total 1485 acc 0.681 loss 0.053 F1 0.504356
+Done with batch 0, acc : 0.875, loss : 0.071
+Done with batch 50, acc : 0.786, loss : 0.054
+Done with batch 100, acc : 0.699, loss : 0.058
+Done with batch 150, acc : 0.683, loss : 0.059
+Done with batch 200, acc : 0.687, loss : 0.059
+Done with batch 250, acc : 0.690, loss : 0.058
+Done with batch 300, acc : 0.700, loss : 0.056
+Time taken : 45 , num_correct 3697 num_total 5217 acc 0.709 loss 0.055
+num_correct 1044 num_total 1485 acc 0.703 loss 0.052 F1 0.522813
+Done with batch 0, acc : 0.938, loss : 0.072
+Done with batch 50, acc : 0.809, loss : 0.052
+Done with batch 100, acc : 0.731, loss : 0.056
+Done with batch 150, acc : 0.707, loss : 0.058
+Done with batch 200, acc : 0.708, loss : 0.058
+Done with batch 250, acc : 0.712, loss : 0.057
+Done with batch 300, acc : 0.716, loss : 0.055
+Time taken : 46 , num_correct 3787 num_total 5217 acc 0.726 loss 0.054
+num_correct 1084 num_total 1485 acc 0.730 loss 0.053 F1 0.528993
+Done with batch 0, acc : 0.938, loss : 0.072
+Done with batch 50, acc : 0.822, loss : 0.050
+Done with batch 100, acc : 0.733, loss : 0.056
+Done with batch 150, acc : 0.706, loss : 0.058
+Done with batch 200, acc : 0.714, loss : 0.057
+Done with batch 250, acc : 0.718, loss : 0.056
+Done with batch 300, acc : 0.721, loss : 0.054
+Time taken : 46 , num_correct 3799 num_total 5217 acc 0.728 loss 0.053
+num_correct 1076 num_total 1485 acc 0.725 loss 0.052 F1 0.527906
+Done with batch 0, acc : 0.938, loss : 0.072
+Done with batch 50, acc : 0.815, loss : 0.052
+Done with batch 100, acc : 0.743, loss : 0.056
+Done with batch 150, acc : 0.717, loss : 0.057
+Done with batch 200, acc : 0.720, loss : 0.056
+Done with batch 250, acc : 0.720, loss : 0.056
+Done with batch 300, acc : 0.727, loss : 0.054
+Time taken : 46 , num_correct 3825 num_total 5217 acc 0.733 loss 0.052
+num_correct 1027 num_total 1485 acc 0.692 loss 0.053 F1 0.514626
+Done with batch 0, acc : 0.938, loss : 0.066
+Done with batch 50, acc : 0.809, loss : 0.049
+Done with batch 100, acc : 0.743, loss : 0.055
+Done with batch 150, acc : 0.722, loss : 0.056
+Done with batch 200, acc : 0.720, loss : 0.056
+Done with batch 250, acc : 0.719, loss : 0.055
+Done with batch 300, acc : 0.727, loss : 0.053
+Time taken : 46 , num_correct 3835 num_total 5217 acc 0.735 loss 0.052
+num_correct 1074 num_total 1485 acc 0.723 loss 0.051 F1 0.538887
+Done with batch 0, acc : 0.938, loss : 0.047
+Done with batch 50, acc : 0.830, loss : 0.047
+Done with batch 100, acc : 0.756, loss : 0.052
+Done with batch 150, acc : 0.738, loss : 0.054
+Done with batch 200, acc : 0.738, loss : 0.054
+Done with batch 250, acc : 0.739, loss : 0.053
+Done with batch 300, acc : 0.739, loss : 0.052
+Time taken : 45 , num_correct 3901 num_total 5217 acc 0.748 loss 0.050
+num_correct 1089 num_total 1485 acc 0.733 loss 0.051 F1 0.546949
+Done with batch 0, acc : 0.938, loss : 0.083
+Done with batch 50, acc : 0.817, loss : 0.048
+Done with batch 100, acc : 0.756, loss : 0.053
+Done with batch 150, acc : 0.740, loss : 0.055
+Done with batch 200, acc : 0.742, loss : 0.055
+Done with batch 250, acc : 0.742, loss : 0.054
+Done with batch 300, acc : 0.748, loss : 0.052
+Time taken : 46 , num_correct 3952 num_total 5217 acc 0.758 loss 0.050
+num_correct 1071 num_total 1485 acc 0.721 loss 0.055 F1 0.534202
+Done with batch 0, acc : 0.812, loss : 0.069
+Done with batch 50, acc : 0.847, loss : 0.045
+Done with batch 100, acc : 0.754, loss : 0.050
+Done with batch 150, acc : 0.730, loss : 0.054
+Done with batch 200, acc : 0.732, loss : 0.054
+Done with batch 250, acc : 0.733, loss : 0.054
+Done with batch 300, acc : 0.736, loss : 0.052
+Time taken : 46 , num_correct 3891 num_total 5217 acc 0.746 loss 0.050
+num_correct 1081 num_total 1485 acc 0.728 loss 0.053 F1 0.541092
+Done with batch 0, acc : 0.938, loss : 0.075
+Done with batch 50, acc : 0.832, loss : 0.046
+Done with batch 100, acc : 0.761, loss : 0.053
+Done with batch 150, acc : 0.745, loss : 0.055
+Done with batch 200, acc : 0.743, loss : 0.055
+Done with batch 250, acc : 0.743, loss : 0.054
+Done with batch 300, acc : 0.752, loss : 0.052
+Time taken : 45 , num_correct 3966 num_total 5217 acc 0.760 loss 0.050
+num_correct 1086 num_total 1485 acc 0.731 loss 0.052 F1 0.542376
+Done with batch 0, acc : 0.938, loss : 0.085
+Done with batch 50, acc : 0.849, loss : 0.047
+Done with batch 100, acc : 0.777, loss : 0.052
+Done with batch 150, acc : 0.750, loss : 0.055
+Done with batch 200, acc : 0.748, loss : 0.055
+Done with batch 250, acc : 0.748, loss : 0.055
+Done with batch 300, acc : 0.755, loss : 0.053
+Time taken : 46 , num_correct 3986 num_total 5217 acc 0.764 loss 0.051
+num_correct 1111 num_total 1485 acc 0.748 loss 0.058 F1 0.544286
+Done with batch 0, acc : 0.938, loss : 0.066
+Done with batch 50, acc : 0.852, loss : 0.045
+Done with batch 100, acc : 0.788, loss : 0.051
+Done with batch 150, acc : 0.761, loss : 0.056
+Done with batch 200, acc : 0.763, loss : 0.055
+Done with batch 250, acc : 0.759, loss : 0.054
+Done with batch 300, acc : 0.762, loss : 0.052
+Time taken : 45 , num_correct 4018 num_total 5217 acc 0.770 loss 0.050
+num_correct 1099 num_total 1485 acc 0.740 loss 0.058 F1 0.543342
+Done with batch 0, acc : 0.938, loss : 0.078
+Done with batch 50, acc : 0.842, loss : 0.047
+Done with batch 100, acc : 0.781, loss : 0.053
+Done with batch 150, acc : 0.761, loss : 0.056
+Done with batch 200, acc : 0.764, loss : 0.056
+Done with batch 250, acc : 0.765, loss : 0.054
+Done with batch 300, acc : 0.769, loss : 0.052
+Time taken : 45 , num_correct 4054 num_total 5217 acc 0.777 loss 0.050
+num_correct 1102 num_total 1485 acc 0.742 loss 0.058 F1 0.548861
+Done with batch 0, acc : 0.938, loss : 0.074
+Done with batch 50, acc : 0.848, loss : 0.047
+Done with batch 100, acc : 0.782, loss : 0.052
+Done with batch 150, acc : 0.767, loss : 0.055
+Done with batch 200, acc : 0.773, loss : 0.054
+Done with batch 250, acc : 0.770, loss : 0.053
+Done with batch 300, acc : 0.772, loss : 0.051
+Time taken : 46 , num_correct 4068 num_total 5217 acc 0.780 loss 0.049
+num_correct 1117 num_total 1485 acc 0.752 loss 0.059 F1 0.555471
+Done with batch 0, acc : 0.938, loss : 0.077
+Done with batch 50, acc : 0.860, loss : 0.045
+Done with batch 100, acc : 0.788, loss : 0.051
+Done with batch 150, acc : 0.770, loss : 0.056
+Done with batch 200, acc : 0.768, loss : 0.055
+Done with batch 250, acc : 0.772, loss : 0.055
+Done with batch 300, acc : 0.778, loss : 0.052
+Time taken : 46 , num_correct 4100 num_total 5217 acc 0.786 loss 0.050
+num_correct 1130 num_total 1485 acc 0.761 loss 0.064 F1 0.557394
+Done with batch 0, acc : 0.938, loss : 0.094
+Done with batch 50, acc : 0.853, loss : 0.048
+Done with batch 100, acc : 0.789, loss : 0.052
+Done with batch 150, acc : 0.775, loss : 0.056
+Done with batch 200, acc : 0.773, loss : 0.056
+Done with batch 250, acc : 0.771, loss : 0.055
+Done with batch 300, acc : 0.775, loss : 0.053
+Time taken : 45 , num_correct 4087 num_total 5217 acc 0.783 loss 0.051
+num_correct 1131 num_total 1485 acc 0.762 loss 0.062 F1 0.556647
+Done with batch 0, acc : 0.938, loss : 0.098
+Done with batch 50, acc : 0.860, loss : 0.046
+Done with batch 100, acc : 0.799, loss : 0.055
+Done with batch 150, acc : 0.776, loss : 0.058
+Done with batch 200, acc : 0.775, loss : 0.057
+Done with batch 250, acc : 0.779, loss : 0.056
+Done with batch 300, acc : 0.783, loss : 0.054
+Time taken : 46 , num_correct 4132 num_total 5217 acc 0.792 loss 0.051
+num_correct 1123 num_total 1485 acc 0.756 loss 0.061 F1 0.548084
+Done with batch 0, acc : 0.938, loss : 0.061
+Done with batch 50, acc : 0.866, loss : 0.046
+Done with batch 100, acc : 0.800, loss : 0.051
+Done with batch 150, acc : 0.781, loss : 0.056
+Done with batch 200, acc : 0.782, loss : 0.056
+Done with batch 250, acc : 0.784, loss : 0.056
+Done with batch 300, acc : 0.787, loss : 0.054
+Time taken : 45 , num_correct 4147 num_total 5217 acc 0.795 loss 0.051
+num_correct 1132 num_total 1485 acc 0.762 loss 0.063 F1 0.550771
+Done with batch 0, acc : 0.938, loss : 0.040
+Done with batch 50, acc : 0.881, loss : 0.046
+Done with batch 100, acc : 0.812, loss : 0.053
+Done with batch 150, acc : 0.793, loss : 0.057
+Done with batch 200, acc : 0.789, loss : 0.058
+Done with batch 250, acc : 0.791, loss : 0.057
+Done with batch 300, acc : 0.798, loss : 0.055
+Time taken : 46 , num_correct 4203 num_total 5217 acc 0.806 loss 0.052
+num_correct 1119 num_total 1485 acc 0.754 loss 0.066 F1 0.550739
+Done with batch 0, acc : 0.938, loss : 0.083
+Done with batch 50, acc : 0.868, loss : 0.048
+Done with batch 100, acc : 0.804, loss : 0.056
+Done with batch 150, acc : 0.791, loss : 0.058
+Done with batch 200, acc : 0.785, loss : 0.060
+Done with batch 250, acc : 0.785, loss : 0.060
+Done with batch 300, acc : 0.792, loss : 0.057
+Time taken : 46 , num_correct 4178 num_total 5217 acc 0.801 loss 0.054
+num_correct 1140 num_total 1485 acc 0.768 loss 0.069 F1 0.551039
+Done with batch 0, acc : 0.938, loss : 0.103
+Done with batch 50, acc : 0.881, loss : 0.048
+Done with batch 100, acc : 0.829, loss : 0.055
+Done with batch 150, acc : 0.807, loss : 0.060
+Done with batch 200, acc : 0.802, loss : 0.058
+Done with batch 250, acc : 0.805, loss : 0.057
+Done with batch 300, acc : 0.806, loss : 0.055
+Time taken : 46 , num_correct 4248 num_total 5217 acc 0.814 loss 0.053
+num_correct 1100 num_total 1485 acc 0.741 loss 0.066 F1 0.543798
+Done with batch 0, acc : 0.938, loss : 0.056
+Done with batch 50, acc : 0.869, loss : 0.051
+Done with batch 100, acc : 0.817, loss : 0.057
+Done with batch 150, acc : 0.800, loss : 0.061
+Done with batch 200, acc : 0.799, loss : 0.060
+Done with batch 250, acc : 0.802, loss : 0.059
+Done with batch 300, acc : 0.808, loss : 0.056
+Time taken : 46 , num_correct 4240 num_total 5217 acc 0.813 loss 0.054
+num_correct 1153 num_total 1485 acc 0.776 loss 0.075 F1 0.546921
+Done with batch 0, acc : 0.938, loss : 0.065
+Done with batch 50, acc : 0.875, loss : 0.048
+Done with batch 100, acc : 0.814, loss : 0.060
+Done with batch 150, acc : 0.803, loss : 0.063
+Done with batch 200, acc : 0.802, loss : 0.063
+Done with batch 250, acc : 0.809, loss : 0.062
+Done with batch 300, acc : 0.812, loss : 0.059
+Time taken : 45 , num_correct 4273 num_total 5217 acc 0.819 loss 0.056
+num_correct 1147 num_total 1485 acc 0.772 loss 0.074 F1 0.551481
+Done with batch 0, acc : 0.938, loss : 0.026
+Done with batch 50, acc : 0.884, loss : 0.049
+Done with batch 100, acc : 0.822, loss : 0.056
+Done with batch 150, acc : 0.803, loss : 0.061
+Done with batch 200, acc : 0.808, loss : 0.059
+Done with batch 250, acc : 0.807, loss : 0.058
+Done with batch 300, acc : 0.813, loss : 0.055
+Time taken : 46 , num_correct 4278 num_total 5217 acc 0.820 loss 0.053
+num_correct 1154 num_total 1485 acc 0.777 loss 0.075 F1 0.564376
+Done with batch 0, acc : 0.875, loss : 0.070
+Done with batch 50, acc : 0.879, loss : 0.052
+Done with batch 100, acc : 0.807, loss : 0.060
+Done with batch 150, acc : 0.801, loss : 0.065
+Done with batch 200, acc : 0.798, loss : 0.063
+Done with batch 250, acc : 0.803, loss : 0.063
+Done with batch 300, acc : 0.808, loss : 0.059
+Time taken : 46 , num_correct 4262 num_total 5217 acc 0.817 loss 0.056
+num_correct 1151 num_total 1485 acc 0.775 loss 0.078 F1 0.550541
+Done with batch 0, acc : 0.938, loss : 0.031
+Done with batch 50, acc : 0.875, loss : 0.048
+Done with batch 100, acc : 0.824, loss : 0.058
+Done with batch 150, acc : 0.812, loss : 0.061
+Done with batch 200, acc : 0.808, loss : 0.062
+Done with batch 250, acc : 0.812, loss : 0.061
+Done with batch 300, acc : 0.820, loss : 0.058
+Time taken : 46 , num_correct 4312 num_total 5217 acc 0.827 loss 0.055
+num_correct 1134 num_total 1485 acc 0.764 loss 0.077 F1 0.557858
+Done with batch 0, acc : 0.875, loss : 0.046
+Done with batch 50, acc : 0.882, loss : 0.050
+Done with batch 100, acc : 0.831, loss : 0.055
+Done with batch 150, acc : 0.815, loss : 0.061
+Done with batch 200, acc : 0.813, loss : 0.061
+Done with batch 250, acc : 0.812, loss : 0.061
+Done with batch 300, acc : 0.817, loss : 0.058
+Time taken : 46 , num_correct 4297 num_total 5217 acc 0.824 loss 0.055
+num_correct 1122 num_total 1485 acc 0.756 loss 0.082 F1 0.556659
+Done with batch 0, acc : 0.875, loss : 0.040
+Done with batch 50, acc : 0.886, loss : 0.049
+Done with batch 100, acc : 0.832, loss : 0.059
+Done with batch 150, acc : 0.814, loss : 0.064
+Done with batch 200, acc : 0.815, loss : 0.063
+Done with batch 250, acc : 0.818, loss : 0.063
+Done with batch 300, acc : 0.823, loss : 0.061
+Time taken : 46 , num_correct 4331 num_total 5217 acc 0.830 loss 0.058
+num_correct 1174 num_total 1485 acc 0.791 loss 0.094 F1 0.552003
+Done with batch 0, acc : 0.938, loss : 0.076
+Done with batch 50, acc : 0.890, loss : 0.050
+Done with batch 100, acc : 0.834, loss : 0.063
+Done with batch 150, acc : 0.818, loss : 0.067
+Done with batch 200, acc : 0.819, loss : 0.065
+Done with batch 250, acc : 0.822, loss : 0.065
+Done with batch 300, acc : 0.830, loss : 0.061
+Time taken : 46 , num_correct 4365 num_total 5217 acc 0.837 loss 0.058
+num_correct 1185 num_total 1485 acc 0.798 loss 0.097 F1 0.554103
+Done with batch 0, acc : 0.938, loss : 0.121
+Done with batch 50, acc : 0.891, loss : 0.048
+Done with batch 100, acc : 0.833, loss : 0.056
+Done with batch 150, acc : 0.820, loss : 0.063
+Done with batch 200, acc : 0.818, loss : 0.064
+Done with batch 250, acc : 0.822, loss : 0.064
+Done with batch 300, acc : 0.830, loss : 0.061
+Time taken : 45 , num_correct 4367 num_total 5217 acc 0.837 loss 0.058
+num_correct 1162 num_total 1485 acc 0.782 loss 0.101 F1 0.531200
+Done with batch 0, acc : 0.938, loss : 0.107
+Done with batch 50, acc : 0.892, loss : 0.052
+Done with batch 100, acc : 0.832, loss : 0.060
+Done with batch 150, acc : 0.818, loss : 0.066
+Done with batch 200, acc : 0.819, loss : 0.065
+Done with batch 250, acc : 0.821, loss : 0.065
+Done with batch 300, acc : 0.825, loss : 0.062
+Time taken : 46 , num_correct 4345 num_total 5217 acc 0.833 loss 0.059
+num_correct 1162 num_total 1485 acc 0.782 loss 0.091 F1 0.567833
+Done with batch 0, acc : 1.000, loss : 0.009
+Done with batch 50, acc : 0.900, loss : 0.047
+Done with batch 100, acc : 0.846, loss : 0.057
+Done with batch 150, acc : 0.829, loss : 0.062
+Done with batch 200, acc : 0.827, loss : 0.063
+Done with batch 250, acc : 0.829, loss : 0.063
+Done with batch 300, acc : 0.836, loss : 0.060
+Time taken : 45 , num_correct 4398 num_total 5217 acc 0.843 loss 0.057
+num_correct 1173 num_total 1485 acc 0.790 loss 0.095 F1 0.561475
+Done with batch 0, acc : 0.938, loss : 0.048
+Done with batch 50, acc : 0.887, loss : 0.048
+Done with batch 100, acc : 0.833, loss : 0.060
+Done with batch 150, acc : 0.817, loss : 0.066
+Done with batch 200, acc : 0.822, loss : 0.064
+Done with batch 250, acc : 0.826, loss : 0.063
+Done with batch 300, acc : 0.831, loss : 0.060
+Time taken : 45 , num_correct 4373 num_total 5217 acc 0.838 loss 0.057
+num_correct 1165 num_total 1485 acc 0.785 loss 0.098 F1 0.554015
+Done with batch 0, acc : 0.938, loss : 0.124
+Done with batch 50, acc : 0.902, loss : 0.048
+Done with batch 100, acc : 0.841, loss : 0.057
+Done with batch 150, acc : 0.831, loss : 0.065
+Done with batch 200, acc : 0.826, loss : 0.065
+Done with batch 250, acc : 0.832, loss : 0.064
+Done with batch 300, acc : 0.837, loss : 0.061
+Time taken : 45 , num_correct 4399 num_total 5217 acc 0.843 loss 0.058
+num_correct 1153 num_total 1485 acc 0.776 loss 0.092 F1 0.555682
+Done with batch 0, acc : 0.938, loss : 0.005
+Done with batch 50, acc : 0.892, loss : 0.051
+Done with batch 100, acc : 0.835, loss : 0.059
+Done with batch 150, acc : 0.825, loss : 0.065
+Done with batch 200, acc : 0.826, loss : 0.064
+Done with batch 250, acc : 0.832, loss : 0.064
+Done with batch 300, acc : 0.837, loss : 0.061
+Time taken : 45 , num_correct 4409 num_total 5217 acc 0.845 loss 0.058
+num_correct 1193 num_total 1485 acc 0.803 loss 0.104 F1 0.562110
+Done with batch 0, acc : 0.938, loss : 0.034
+Done with batch 50, acc : 0.891, loss : 0.056
+Done with batch 100, acc : 0.838, loss : 0.062
+Done with batch 150, acc : 0.834, loss : 0.066
+Done with batch 200, acc : 0.834, loss : 0.066
+Done with batch 250, acc : 0.836, loss : 0.064
+Done with batch 300, acc : 0.841, loss : 0.061
+Time taken : 45 , num_correct 4428 num_total 5217 acc 0.849 loss 0.058
+num_correct 1164 num_total 1485 acc 0.784 loss 0.101 F1 0.552104
+Done with batch 0, acc : 0.938, loss : 0.078
+Done with batch 50, acc : 0.901, loss : 0.050
+Done with batch 100, acc : 0.856, loss : 0.058
+Done with batch 150, acc : 0.844, loss : 0.065
+Done with batch 200, acc : 0.840, loss : 0.065
+Done with batch 250, acc : 0.845, loss : 0.064
+Done with batch 300, acc : 0.849, loss : 0.060
+Time taken : 45 , num_correct 4456 num_total 5217 acc 0.854 loss 0.057
+num_correct 1151 num_total 1485 acc 0.775 loss 0.099 F1 0.555185
+Done with batch 0, acc : 0.938, loss : 0.057
+Done with batch 50, acc : 0.898, loss : 0.047
+Done with batch 100, acc : 0.835, loss : 0.057
+Done with batch 150, acc : 0.829, loss : 0.066
+Done with batch 200, acc : 0.829, loss : 0.066
+Done with batch 250, acc : 0.835, loss : 0.064
+Done with batch 300, acc : 0.840, loss : 0.062
+Time taken : 45 , num_correct 4420 num_total 5217 acc 0.847 loss 0.059
+num_correct 1136 num_total 1485 acc 0.765 loss 0.095 F1 0.554228
+Done with batch 0, acc : 1.000, loss : 0.015
+Done with batch 50, acc : 0.901, loss : 0.046
+Done with batch 100, acc : 0.850, loss : 0.057
+Done with batch 150, acc : 0.837, loss : 0.064
+Done with batch 200, acc : 0.835, loss : 0.064
+Done with batch 250, acc : 0.840, loss : 0.062
+Done with batch 300, acc : 0.847, loss : 0.058
+Time taken : 45 , num_correct 4454 num_total 5217 acc 0.854 loss 0.055
+num_correct 1150 num_total 1485 acc 0.774 loss 0.101 F1 0.548716
+Done with batch 0, acc : 0.938, loss : 0.059
+Done with batch 50, acc : 0.918, loss : 0.046
+Done with batch 100, acc : 0.864, loss : 0.059
+Done with batch 150, acc : 0.849, loss : 0.066
+Done with batch 200, acc : 0.847, loss : 0.065
+Done with batch 250, acc : 0.849, loss : 0.063
+Done with batch 300, acc : 0.851, loss : 0.060
+Time taken : 45 , num_correct 4470 num_total 5217 acc 0.857 loss 0.057
+num_correct 1152 num_total 1485 acc 0.776 loss 0.102 F1 0.550829
+Done with batch 0, acc : 1.000, loss : 0.009
+Done with batch 50, acc : 0.907, loss : 0.051
+Done with batch 100, acc : 0.854, loss : 0.060
+Done with batch 150, acc : 0.846, loss : 0.064
+Done with batch 200, acc : 0.841, loss : 0.063
+Done with batch 250, acc : 0.842, loss : 0.062
+Done with batch 300, acc : 0.851, loss : 0.058
+Time taken : 45 , num_correct 4475 num_total 5217 acc 0.858 loss 0.055
+num_correct 1167 num_total 1485 acc 0.786 loss 0.109 F1 0.547731
+Done with batch 0, acc : 1.000, loss : 0.002
+Done with batch 50, acc : 0.915, loss : 0.047
+Done with batch 100, acc : 0.858, loss : 0.058
+Done with batch 150, acc : 0.846, loss : 0.063
+Done with batch 200, acc : 0.844, loss : 0.063
+Done with batch 250, acc : 0.847, loss : 0.061
+Done with batch 300, acc : 0.853, loss : 0.058
+Time taken : 45 , num_correct 4487 num_total 5217 acc 0.860 loss 0.055
+num_correct 1180 num_total 1485 acc 0.795 loss 0.106 F1 0.560316
+Done with batch 0, acc : 0.938, loss : 0.048
+Done with batch 50, acc : 0.906, loss : 0.048
+Done with batch 100, acc : 0.858, loss : 0.059
+Done with batch 150, acc : 0.846, loss : 0.065
+Done with batch 200, acc : 0.842, loss : 0.065
+Done with batch 250, acc : 0.846, loss : 0.063
+Done with batch 300, acc : 0.850, loss : 0.060
+Time taken : 45 , num_correct 4479 num_total 5217 acc 0.859 loss 0.057
+num_correct 1162 num_total 1485 acc 0.782 loss 0.105 F1 0.561183
+Done with batch 0, acc : 1.000, loss : 0.002
+Done with batch 50, acc : 0.918, loss : 0.041
+Done with batch 100, acc : 0.858, loss : 0.057
+Done with batch 150, acc : 0.850, loss : 0.063
+Done with batch 200, acc : 0.847, loss : 0.062
+Done with batch 250, acc : 0.853, loss : 0.061
+Done with batch 300, acc : 0.857, loss : 0.058
+Time taken : 45 , num_correct 4509 num_total 5217 acc 0.864 loss 0.055
+num_correct 1170 num_total 1485 acc 0.788 loss 0.108 F1 0.568814
+Done with batch 0, acc : 0.938, loss : 0.047
+Done with batch 50, acc : 0.903, loss : 0.045
+Done with batch 100, acc : 0.864, loss : 0.059
+Done with batch 150, acc : 0.856, loss : 0.064
+Done with batch 200, acc : 0.854, loss : 0.064
+Done with batch 250, acc : 0.857, loss : 0.061
+Done with batch 300, acc : 0.863, loss : 0.057
+Time taken : 45 , num_correct 4530 num_total 5217 acc 0.868 loss 0.054
+num_correct 1161 num_total 1485 acc 0.782 loss 0.115 F1 0.542598
+Done with batch 0, acc : 0.938, loss : 0.071
+Done with batch 50, acc : 0.912, loss : 0.048
+Done with batch 100, acc : 0.869, loss : 0.060
+Done with batch 150, acc : 0.857, loss : 0.066
+Done with batch 200, acc : 0.854, loss : 0.066
+Done with batch 250, acc : 0.857, loss : 0.063
+Done with batch 300, acc : 0.863, loss : 0.060
+Time taken : 45 , num_correct 4527 num_total 5217 acc 0.868 loss 0.057
+num_correct 1148 num_total 1485 acc 0.773 loss 0.101 F1 0.559306
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.913, loss : 0.047
+Done with batch 100, acc : 0.869, loss : 0.056
+Done with batch 150, acc : 0.859, loss : 0.062
+Done with batch 200, acc : 0.857, loss : 0.061
+Done with batch 250, acc : 0.860, loss : 0.059
+Done with batch 300, acc : 0.865, loss : 0.056
+Time taken : 45 , num_correct 4542 num_total 5217 acc 0.871 loss 0.053
+num_correct 1163 num_total 1485 acc 0.783 loss 0.108 F1 0.564666
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.928, loss : 0.037
+Done with batch 100, acc : 0.877, loss : 0.053
+Done with batch 150, acc : 0.863, loss : 0.060
+Done with batch 200, acc : 0.863, loss : 0.060
+Done with batch 250, acc : 0.867, loss : 0.058
+Done with batch 300, acc : 0.871, loss : 0.055
+Time taken : 45 , num_correct 4576 num_total 5217 acc 0.877 loss 0.052
+num_correct 1162 num_total 1485 acc 0.782 loss 0.112 F1 0.549571
+Done with batch 0, acc : 1.000, loss : 0.017
+Done with batch 50, acc : 0.923, loss : 0.038
+Done with batch 100, acc : 0.876, loss : 0.051
+Done with batch 150, acc : 0.863, loss : 0.059
+Done with batch 200, acc : 0.861, loss : 0.058
+Done with batch 250, acc : 0.865, loss : 0.057
+Done with batch 300, acc : 0.870, loss : 0.055
+Time taken : 45 , num_correct 4574 num_total 5217 acc 0.877 loss 0.052
+num_correct 1165 num_total 1485 acc 0.785 loss 0.106 F1 0.566168
+Done with batch 0, acc : 0.938, loss : 0.006
+Done with batch 50, acc : 0.923, loss : 0.044
+Done with batch 100, acc : 0.873, loss : 0.053
+Done with batch 150, acc : 0.864, loss : 0.060
+Done with batch 200, acc : 0.868, loss : 0.060
+Done with batch 250, acc : 0.870, loss : 0.057
+Done with batch 300, acc : 0.875, loss : 0.054
+Time taken : 45 , num_correct 4596 num_total 5217 acc 0.881 loss 0.051
+num_correct 1170 num_total 1485 acc 0.788 loss 0.114 F1 0.555145
+Done with batch 0, acc : 0.938, loss : 0.166
+Done with batch 50, acc : 0.925, loss : 0.044
+Done with batch 100, acc : 0.874, loss : 0.058
+Done with batch 150, acc : 0.865, loss : 0.063
+Done with batch 200, acc : 0.865, loss : 0.062
+Done with batch 250, acc : 0.869, loss : 0.059
+Done with batch 300, acc : 0.876, loss : 0.055
+Time taken : 45 , num_correct 4595 num_total 5217 acc 0.881 loss 0.053
+num_correct 1114 num_total 1485 acc 0.750 loss 0.106 F1 0.549691
+Done with batch 0, acc : 1.000, loss : 0.007
+Done with batch 50, acc : 0.913, loss : 0.038
+Done with batch 100, acc : 0.879, loss : 0.050
+Done with batch 150, acc : 0.871, loss : 0.057
+Done with batch 200, acc : 0.871, loss : 0.056
+Done with batch 250, acc : 0.873, loss : 0.055
+Done with batch 300, acc : 0.880, loss : 0.052
+Time taken : 45 , num_correct 4617 num_total 5217 acc 0.885 loss 0.049
+num_correct 1161 num_total 1485 acc 0.782 loss 0.109 F1 0.571676
+Done with batch 0, acc : 1.000, loss : 0.009
+Done with batch 50, acc : 0.926, loss : 0.037
+Done with batch 100, acc : 0.889, loss : 0.051
+Done with batch 150, acc : 0.874, loss : 0.059
+Done with batch 200, acc : 0.873, loss : 0.057
+Done with batch 250, acc : 0.874, loss : 0.055
+Done with batch 300, acc : 0.878, loss : 0.052
+Time taken : 45 , num_correct 4609 num_total 5217 acc 0.883 loss 0.050
+num_correct 1154 num_total 1485 acc 0.777 loss 0.109 F1 0.568267
+Done with batch 0, acc : 1.000, loss : 0.002
+Done with batch 50, acc : 0.920, loss : 0.038
+Done with batch 100, acc : 0.880, loss : 0.052
+Done with batch 150, acc : 0.868, loss : 0.058
+Done with batch 200, acc : 0.873, loss : 0.055
+Done with batch 250, acc : 0.875, loss : 0.053
+Done with batch 300, acc : 0.881, loss : 0.050
+Time taken : 45 , num_correct 4633 num_total 5217 acc 0.888 loss 0.048
+num_correct 1180 num_total 1485 acc 0.795 loss 0.116 F1 0.561596
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.925, loss : 0.038
+Done with batch 100, acc : 0.886, loss : 0.046
+Done with batch 150, acc : 0.874, loss : 0.054
+Done with batch 200, acc : 0.873, loss : 0.054
+Done with batch 250, acc : 0.878, loss : 0.051
+Done with batch 300, acc : 0.882, loss : 0.049
+Time taken : 46 , num_correct 4632 num_total 5217 acc 0.888 loss 0.047
+num_correct 1131 num_total 1485 acc 0.762 loss 0.110 F1 0.549809
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.933, loss : 0.034
+Done with batch 100, acc : 0.896, loss : 0.046
+Done with batch 150, acc : 0.884, loss : 0.054
+Done with batch 200, acc : 0.884, loss : 0.054
+Done with batch 250, acc : 0.886, loss : 0.052
+Done with batch 300, acc : 0.890, loss : 0.050
+Time taken : 45 , num_correct 4669 num_total 5217 acc 0.895 loss 0.048
+num_correct 1140 num_total 1485 acc 0.768 loss 0.117 F1 0.548519
+Done with batch 0, acc : 0.938, loss : 0.136
+Done with batch 50, acc : 0.928, loss : 0.037
+Done with batch 100, acc : 0.888, loss : 0.047
+Done with batch 150, acc : 0.877, loss : 0.054
+Done with batch 200, acc : 0.877, loss : 0.053
+Done with batch 250, acc : 0.883, loss : 0.050
+Done with batch 300, acc : 0.888, loss : 0.047
+Time taken : 45 , num_correct 4657 num_total 5217 acc 0.893 loss 0.045
+num_correct 1167 num_total 1485 acc 0.786 loss 0.119 F1 0.560248
+Done with batch 0, acc : 1.000, loss : 0.001
+Done with batch 50, acc : 0.926, loss : 0.033
+Done with batch 100, acc : 0.891, loss : 0.045
+Done with batch 150, acc : 0.882, loss : 0.052
+Done with batch 200, acc : 0.884, loss : 0.052
+Done with batch 250, acc : 0.886, loss : 0.051
+Done with batch 300, acc : 0.889, loss : 0.048
+Time taken : 45 , num_correct 4665 num_total 5217 acc 0.894 loss 0.046
+num_correct 1150 num_total 1485 acc 0.774 loss 0.111 F1 0.553860
+Done with batch 0, acc : 1.000, loss : 0.001
+Done with batch 50, acc : 0.933, loss : 0.032
+Done with batch 100, acc : 0.895, loss : 0.044
+Done with batch 150, acc : 0.886, loss : 0.049
+Done with batch 200, acc : 0.886, loss : 0.049
+Done with batch 250, acc : 0.891, loss : 0.047
+Done with batch 300, acc : 0.895, loss : 0.045
+Time taken : 45 , num_correct 4697 num_total 5217 acc 0.900 loss 0.043
+num_correct 1149 num_total 1485 acc 0.774 loss 0.128 F1 0.530741
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.931, loss : 0.033
+Done with batch 100, acc : 0.886, loss : 0.046
+Done with batch 150, acc : 0.875, loss : 0.053
+Done with batch 200, acc : 0.876, loss : 0.052
+Done with batch 250, acc : 0.882, loss : 0.049
+Done with batch 300, acc : 0.889, loss : 0.047
+Time taken : 46 , num_correct 4668 num_total 5217 acc 0.895 loss 0.044
+num_correct 1144 num_total 1485 acc 0.770 loss 0.111 F1 0.559593
+Done with batch 0, acc : 1.000, loss : 0.016
+Done with batch 50, acc : 0.940, loss : 0.028
+Done with batch 100, acc : 0.900, loss : 0.042
+Done with batch 150, acc : 0.884, loss : 0.049
+Done with batch 200, acc : 0.886, loss : 0.048
+Done with batch 250, acc : 0.890, loss : 0.046
+Done with batch 300, acc : 0.894, loss : 0.045
+Time taken : 46 , num_correct 4695 num_total 5217 acc 0.900 loss 0.042
+num_correct 1160 num_total 1485 acc 0.781 loss 0.112 F1 0.558964
+Done with batch 0, acc : 0.938, loss : 0.025
+Done with batch 50, acc : 0.922, loss : 0.034
+Done with batch 100, acc : 0.891, loss : 0.043
+Done with batch 150, acc : 0.884, loss : 0.048
+Done with batch 200, acc : 0.882, loss : 0.048
+Done with batch 250, acc : 0.888, loss : 0.046
+Done with batch 300, acc : 0.895, loss : 0.044
+Time taken : 45 , num_correct 4693 num_total 5217 acc 0.900 loss 0.041
+num_correct 1137 num_total 1485 acc 0.766 loss 0.117 F1 0.548538
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.935, loss : 0.029
+Done with batch 100, acc : 0.892, loss : 0.043
+Done with batch 150, acc : 0.886, loss : 0.049
+Done with batch 200, acc : 0.882, loss : 0.049
+Done with batch 250, acc : 0.889, loss : 0.047
+Done with batch 300, acc : 0.896, loss : 0.045
+Time taken : 46 , num_correct 4700 num_total 5217 acc 0.901 loss 0.042
+num_correct 1152 num_total 1485 acc 0.776 loss 0.119 F1 0.552345
+Done with batch 0, acc : 1.000, loss : 0.001
+Done with batch 50, acc : 0.944, loss : 0.025
+Done with batch 100, acc : 0.905, loss : 0.036
+Done with batch 150, acc : 0.892, loss : 0.046
+Done with batch 200, acc : 0.890, loss : 0.047
+Done with batch 250, acc : 0.893, loss : 0.045
+Done with batch 300, acc : 0.898, loss : 0.043
+Time taken : 46 , num_correct 4713 num_total 5217 acc 0.903 loss 0.041
+num_correct 1157 num_total 1485 acc 0.779 loss 0.122 F1 0.547357
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.933, loss : 0.032
+Done with batch 100, acc : 0.892, loss : 0.042
+Done with batch 150, acc : 0.889, loss : 0.047
+Done with batch 200, acc : 0.889, loss : 0.048
+Done with batch 250, acc : 0.894, loss : 0.045
+Done with batch 300, acc : 0.902, loss : 0.042
+Time taken : 45 , num_correct 4732 num_total 5217 acc 0.907 loss 0.040
+num_correct 1159 num_total 1485 acc 0.780 loss 0.120 F1 0.555581
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.938, loss : 0.032
+Done with batch 100, acc : 0.895, loss : 0.043
+Done with batch 150, acc : 0.886, loss : 0.049
+Done with batch 200, acc : 0.886, loss : 0.047
+Done with batch 250, acc : 0.892, loss : 0.044
+Done with batch 300, acc : 0.899, loss : 0.042
+Time taken : 45 , num_correct 4715 num_total 5217 acc 0.904 loss 0.040
+num_correct 1129 num_total 1485 acc 0.760 loss 0.112 F1 0.543990
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.936, loss : 0.030
+Done with batch 100, acc : 0.903, loss : 0.042
+Done with batch 150, acc : 0.895, loss : 0.045
+Done with batch 200, acc : 0.894, loss : 0.046
+Done with batch 250, acc : 0.900, loss : 0.042
+Done with batch 300, acc : 0.907, loss : 0.040
+Time taken : 45 , num_correct 4753 num_total 5217 acc 0.911 loss 0.038
+num_correct 1159 num_total 1485 acc 0.780 loss 0.129 F1 0.549292
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.945, loss : 0.025
+Done with batch 100, acc : 0.905, loss : 0.037
+Done with batch 150, acc : 0.892, loss : 0.044
+Done with batch 200, acc : 0.891, loss : 0.045
+Done with batch 250, acc : 0.899, loss : 0.042
+Done with batch 300, acc : 0.904, loss : 0.040
+Time taken : 45 , num_correct 4743 num_total 5217 acc 0.909 loss 0.038
+num_correct 1159 num_total 1485 acc 0.780 loss 0.136 F1 0.537457
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.951, loss : 0.024
+Done with batch 100, acc : 0.912, loss : 0.036
+Done with batch 150, acc : 0.904, loss : 0.041
+Done with batch 200, acc : 0.906, loss : 0.040
+Done with batch 250, acc : 0.910, loss : 0.038
+Done with batch 300, acc : 0.914, loss : 0.037
+Time taken : 45 , num_correct 4793 num_total 5217 acc 0.919 loss 0.035
+num_correct 1162 num_total 1485 acc 0.782 loss 0.128 F1 0.547439
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.947, loss : 0.024
+Done with batch 100, acc : 0.909, loss : 0.034
+Done with batch 150, acc : 0.896, loss : 0.041
+Done with batch 200, acc : 0.898, loss : 0.040
+Done with batch 250, acc : 0.905, loss : 0.038
+Done with batch 300, acc : 0.909, loss : 0.037
+Time taken : 45 , num_correct 4771 num_total 5217 acc 0.915 loss 0.035
+num_correct 1150 num_total 1485 acc 0.774 loss 0.127 F1 0.557301
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.952, loss : 0.023
+Done with batch 100, acc : 0.919, loss : 0.036
+Done with batch 150, acc : 0.908, loss : 0.041
+Done with batch 200, acc : 0.905, loss : 0.041
+Done with batch 250, acc : 0.910, loss : 0.039
+Done with batch 300, acc : 0.914, loss : 0.038
+Time taken : 45 , num_correct 4794 num_total 5217 acc 0.919 loss 0.036
+num_correct 1170 num_total 1485 acc 0.788 loss 0.116 F1 0.574164
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.951, loss : 0.021
+Done with batch 100, acc : 0.916, loss : 0.032
+Done with batch 150, acc : 0.906, loss : 0.039
+Done with batch 200, acc : 0.905, loss : 0.038
+Done with batch 250, acc : 0.911, loss : 0.037
+Done with batch 300, acc : 0.917, loss : 0.036
+Time taken : 45 , num_correct 4805 num_total 5217 acc 0.921 loss 0.034
+num_correct 1146 num_total 1485 acc 0.772 loss 0.114 F1 0.557646
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.953, loss : 0.024
+Done with batch 100, acc : 0.919, loss : 0.036
+Done with batch 150, acc : 0.908, loss : 0.041
+Done with batch 200, acc : 0.908, loss : 0.040
+Done with batch 250, acc : 0.913, loss : 0.038
+Done with batch 300, acc : 0.917, loss : 0.036
+Time taken : 45 , num_correct 4808 num_total 5217 acc 0.922 loss 0.034
+num_correct 1136 num_total 1485 acc 0.765 loss 0.125 F1 0.540015
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.933, loss : 0.023
+Done with batch 100, acc : 0.906, loss : 0.034
+Done with batch 150, acc : 0.900, loss : 0.038
+Done with batch 200, acc : 0.902, loss : 0.039
+Done with batch 250, acc : 0.910, loss : 0.036
+Done with batch 300, acc : 0.914, loss : 0.035
+Time taken : 45 , num_correct 4795 num_total 5217 acc 0.919 loss 0.033
+num_correct 1181 num_total 1485 acc 0.795 loss 0.122 F1 0.570856
+Done with batch 0, acc : 0.938, loss : 0.134
+Done with batch 50, acc : 0.953, loss : 0.025
+Done with batch 100, acc : 0.924, loss : 0.034
+Done with batch 150, acc : 0.913, loss : 0.038
+Done with batch 200, acc : 0.913, loss : 0.038
+Done with batch 250, acc : 0.917, loss : 0.036
+Done with batch 300, acc : 0.921, loss : 0.035
+Time taken : 45 , num_correct 4826 num_total 5217 acc 0.925 loss 0.033
+num_correct 1172 num_total 1485 acc 0.789 loss 0.126 F1 0.554545
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.949, loss : 0.024
+Done with batch 100, acc : 0.925, loss : 0.032
+Done with batch 150, acc : 0.914, loss : 0.038
+Done with batch 200, acc : 0.912, loss : 0.037
+Done with batch 250, acc : 0.916, loss : 0.034
+Done with batch 300, acc : 0.920, loss : 0.034
+Time taken : 45 , num_correct 4823 num_total 5217 acc 0.924 loss 0.032
+num_correct 1175 num_total 1485 acc 0.791 loss 0.133 F1 0.554953
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.955, loss : 0.024
+Done with batch 100, acc : 0.921, loss : 0.035
+Done with batch 150, acc : 0.912, loss : 0.040
+Done with batch 200, acc : 0.913, loss : 0.038
+Done with batch 250, acc : 0.916, loss : 0.036
+Done with batch 300, acc : 0.918, loss : 0.035
+Time taken : 45 , num_correct 4814 num_total 5217 acc 0.923 loss 0.033
+num_correct 1104 num_total 1485 acc 0.743 loss 0.121 F1 0.537153
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.955, loss : 0.017
+Done with batch 100, acc : 0.925, loss : 0.029
+Done with batch 150, acc : 0.917, loss : 0.033
+Done with batch 200, acc : 0.919, loss : 0.032
+Done with batch 250, acc : 0.921, loss : 0.033
+Done with batch 300, acc : 0.925, loss : 0.032
+Time taken : 45 , num_correct 4844 num_total 5217 acc 0.929 loss 0.030
+num_correct 1151 num_total 1485 acc 0.775 loss 0.127 F1 0.554384
+Done with batch 0, acc : 1.000, loss : 0.006
+Done with batch 50, acc : 0.949, loss : 0.017
+Done with batch 100, acc : 0.917, loss : 0.029
+Done with batch 150, acc : 0.913, loss : 0.034
+Done with batch 200, acc : 0.914, loss : 0.034
+Done with batch 250, acc : 0.920, loss : 0.032
+Done with batch 300, acc : 0.924, loss : 0.032
+Time taken : 45 , num_correct 4844 num_total 5217 acc 0.929 loss 0.030
+num_correct 1138 num_total 1485 acc 0.766 loss 0.131 F1 0.539344
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.958, loss : 0.019
+Done with batch 100, acc : 0.925, loss : 0.033
+Done with batch 150, acc : 0.919, loss : 0.036
+Done with batch 200, acc : 0.918, loss : 0.035
+Done with batch 250, acc : 0.921, loss : 0.034
+Done with batch 300, acc : 0.922, loss : 0.033
+Time taken : 45 , num_correct 4836 num_total 5217 acc 0.927 loss 0.031
+num_correct 1135 num_total 1485 acc 0.764 loss 0.120 F1 0.546834
+Done with batch 0, acc : 1.000, loss : 0.001
+Done with batch 50, acc : 0.963, loss : 0.018
+Done with batch 100, acc : 0.934, loss : 0.027
+Done with batch 150, acc : 0.927, loss : 0.032
+Done with batch 200, acc : 0.928, loss : 0.031
+Done with batch 250, acc : 0.930, loss : 0.030
+Done with batch 300, acc : 0.932, loss : 0.029
+Time taken : 45 , num_correct 4884 num_total 5217 acc 0.936 loss 0.028
+num_correct 1149 num_total 1485 acc 0.774 loss 0.134 F1 0.546920
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.964, loss : 0.018
+Done with batch 100, acc : 0.926, loss : 0.027
+Done with batch 150, acc : 0.920, loss : 0.032
+Done with batch 200, acc : 0.921, loss : 0.032
+Done with batch 250, acc : 0.925, loss : 0.030
+Done with batch 300, acc : 0.929, loss : 0.031
+Time taken : 45 , num_correct 4866 num_total 5217 acc 0.933 loss 0.029
+num_correct 1135 num_total 1485 acc 0.764 loss 0.118 F1 0.544735
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.964, loss : 0.016
+Done with batch 100, acc : 0.931, loss : 0.028
+Done with batch 150, acc : 0.923, loss : 0.033
+Done with batch 200, acc : 0.921, loss : 0.033
+Done with batch 250, acc : 0.928, loss : 0.031
+Done with batch 300, acc : 0.931, loss : 0.031
+Time taken : 45 , num_correct 4878 num_total 5217 acc 0.935 loss 0.029
+num_correct 1129 num_total 1485 acc 0.760 loss 0.132 F1 0.535799
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.961, loss : 0.018
+Done with batch 100, acc : 0.943, loss : 0.022
+Done with batch 150, acc : 0.931, loss : 0.028
+Done with batch 200, acc : 0.927, loss : 0.029
+Done with batch 250, acc : 0.931, loss : 0.028
+Done with batch 300, acc : 0.935, loss : 0.028
+Time taken : 45 , num_correct 4900 num_total 5217 acc 0.939 loss 0.026
+num_correct 1095 num_total 1485 acc 0.737 loss 0.123 F1 0.529288
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.967, loss : 0.014
+
+
+50.8 49.9 50.9 51.2 53.7
+************************************************************************************************************************************************************
+
+Setting seeds
+Preparing datasets
+Using class weights :  [3.8043243885040283, 1.0, 9.309523582458496, 8.90886116027832]
+Starting to train
+Done with batch 0, acc : 0.062, loss : 0.090
+Done with batch 50, acc : 0.173, loss : 0.089
+Done with batch 100, acc : 0.186, loss : 0.090
+Done with batch 150, acc : 0.211, loss : 0.089
+Done with batch 200, acc : 0.219, loss : 0.089
+Done with batch 250, acc : 0.230, loss : 0.088
+Done with batch 300, acc : 0.240, loss : 0.088
+Time taken : 57 , num_correct 1314 num_total 5217 acc 0.252 loss 0.088
+num_correct 142 num_total 1485 acc 0.096 loss 0.082 F1 0.133422
+Done with batch 0, acc : 0.062, loss : 0.086
+Done with batch 50, acc : 0.339, loss : 0.086
+Done with batch 100, acc : 0.359, loss : 0.087
+Done with batch 150, acc : 0.362, loss : 0.087
+Done with batch 200, acc : 0.356, loss : 0.087
+Done with batch 250, acc : 0.358, loss : 0.087
+Done with batch 300, acc : 0.371, loss : 0.087
+Time taken : 57 , num_correct 2077 num_total 5217 acc 0.398 loss 0.086
+num_correct 911 num_total 1485 acc 0.613 loss 0.082 F1 0.301787
+Done with batch 0, acc : 0.312, loss : 0.080
+Done with batch 50, acc : 0.423, loss : 0.085
+Done with batch 100, acc : 0.434, loss : 0.086
+Done with batch 150, acc : 0.450, loss : 0.086
+Done with batch 200, acc : 0.440, loss : 0.086
+Done with batch 250, acc : 0.444, loss : 0.085
+Done with batch 300, acc : 0.451, loss : 0.085
+Time taken : 57 , num_correct 2487 num_total 5217 acc 0.477 loss 0.084
+num_correct 1089 num_total 1485 acc 0.733 loss 0.080 F1 0.346382
+Done with batch 0, acc : 0.562, loss : 0.078
+Done with batch 50, acc : 0.512, loss : 0.083
+Done with batch 100, acc : 0.502, loss : 0.084
+Done with batch 150, acc : 0.498, loss : 0.084
+Done with batch 200, acc : 0.490, loss : 0.084
+Done with batch 250, acc : 0.483, loss : 0.084
+Done with batch 300, acc : 0.482, loss : 0.083
+Time taken : 57 , num_correct 2644 num_total 5217 acc 0.507 loss 0.082
+num_correct 1070 num_total 1485 acc 0.721 loss 0.079 F1 0.364762
+Done with batch 0, acc : 0.625, loss : 0.087
+Done with batch 50, acc : 0.542, loss : 0.082
+Done with batch 100, acc : 0.532, loss : 0.082
+Done with batch 150, acc : 0.521, loss : 0.082
+Done with batch 200, acc : 0.514, loss : 0.082
+Done with batch 250, acc : 0.508, loss : 0.082
+Done with batch 300, acc : 0.512, loss : 0.082
+Time taken : 57 , num_correct 2792 num_total 5217 acc 0.535 loss 0.080
+num_correct 1076 num_total 1485 acc 0.725 loss 0.079 F1 0.379960
+Done with batch 0, acc : 0.375, loss : 0.082
+Done with batch 50, acc : 0.540, loss : 0.081
+Done with batch 100, acc : 0.525, loss : 0.081
+Done with batch 150, acc : 0.514, loss : 0.081
+Done with batch 200, acc : 0.506, loss : 0.081
+Done with batch 250, acc : 0.504, loss : 0.081
+Done with batch 300, acc : 0.508, loss : 0.081
+Time taken : 57 , num_correct 2776 num_total 5217 acc 0.532 loss 0.079
+num_correct 931 num_total 1485 acc 0.627 loss 0.078 F1 0.367229
+Done with batch 0, acc : 0.750, loss : 0.076
+Done with batch 50, acc : 0.556, loss : 0.080
+Done with batch 100, acc : 0.549, loss : 0.080
+Done with batch 150, acc : 0.531, loss : 0.081
+Done with batch 200, acc : 0.516, loss : 0.081
+Done with batch 250, acc : 0.509, loss : 0.080
+Done with batch 300, acc : 0.515, loss : 0.080
+Time taken : 57 , num_correct 2810 num_total 5217 acc 0.539 loss 0.077
+num_correct 1090 num_total 1485 acc 0.734 loss 0.075 F1 0.418895
+Done with batch 0, acc : 0.562, loss : 0.078
+Done with batch 50, acc : 0.605, loss : 0.078
+Done with batch 100, acc : 0.577, loss : 0.078
+Done with batch 150, acc : 0.546, loss : 0.079
+Done with batch 200, acc : 0.530, loss : 0.079
+Done with batch 250, acc : 0.540, loss : 0.078
+Done with batch 300, acc : 0.550, loss : 0.078
+Time taken : 57 , num_correct 2992 num_total 5217 acc 0.574 loss 0.075
+num_correct 1104 num_total 1485 acc 0.743 loss 0.072 F1 0.438172
+Done with batch 0, acc : 0.812, loss : 0.069
+Done with batch 50, acc : 0.659, loss : 0.075
+Done with batch 100, acc : 0.616, loss : 0.076
+Done with batch 150, acc : 0.581, loss : 0.077
+Done with batch 200, acc : 0.562, loss : 0.076
+Done with batch 250, acc : 0.558, loss : 0.076
+Done with batch 300, acc : 0.573, loss : 0.075
+Time taken : 57 , num_correct 3110 num_total 5217 acc 0.596 loss 0.073
+num_correct 1114 num_total 1485 acc 0.750 loss 0.068 F1 0.445937
+Done with batch 0, acc : 0.812, loss : 0.065
+Done with batch 50, acc : 0.670, loss : 0.073
+Done with batch 100, acc : 0.634, loss : 0.073
+Done with batch 150, acc : 0.596, loss : 0.074
+Done with batch 200, acc : 0.572, loss : 0.074
+Done with batch 250, acc : 0.568, loss : 0.074
+Done with batch 300, acc : 0.580, loss : 0.073
+Time taken : 57 , num_correct 3136 num_total 5217 acc 0.601 loss 0.070
+num_correct 1108 num_total 1485 acc 0.746 loss 0.065 F1 0.443290
+Done with batch 0, acc : 0.875, loss : 0.062
+Done with batch 50, acc : 0.654, loss : 0.072
+Done with batch 100, acc : 0.614, loss : 0.073
+Done with batch 150, acc : 0.582, loss : 0.074
+Done with batch 200, acc : 0.571, loss : 0.073
+Done with batch 250, acc : 0.576, loss : 0.073
+Done with batch 300, acc : 0.591, loss : 0.072
+Time taken : 57 , num_correct 3197 num_total 5217 acc 0.613 loss 0.069
+num_correct 1125 num_total 1485 acc 0.758 loss 0.063 F1 0.455456
+Done with batch 0, acc : 0.875, loss : 0.062
+Done with batch 50, acc : 0.678, loss : 0.071
+Done with batch 100, acc : 0.632, loss : 0.071
+Done with batch 150, acc : 0.600, loss : 0.072
+Done with batch 200, acc : 0.585, loss : 0.071
+Done with batch 250, acc : 0.580, loss : 0.071
+Done with batch 300, acc : 0.594, loss : 0.070
+Time taken : 57 , num_correct 3217 num_total 5217 acc 0.617 loss 0.068
+num_correct 1129 num_total 1485 acc 0.760 loss 0.061 F1 0.457583
+Done with batch 0, acc : 0.875, loss : 0.060
+Done with batch 50, acc : 0.676, loss : 0.070
+Done with batch 100, acc : 0.634, loss : 0.071
+Done with batch 150, acc : 0.591, loss : 0.071
+Done with batch 200, acc : 0.578, loss : 0.070
+Done with batch 250, acc : 0.580, loss : 0.070
+Done with batch 300, acc : 0.598, loss : 0.069
+Time taken : 57 , num_correct 3242 num_total 5217 acc 0.621 loss 0.067
+num_correct 1118 num_total 1485 acc 0.753 loss 0.061 F1 0.481320
+Done with batch 0, acc : 0.688, loss : 0.059
+Done with batch 50, acc : 0.672, loss : 0.068
+Done with batch 100, acc : 0.616, loss : 0.070
+Done with batch 150, acc : 0.575, loss : 0.070
+Done with batch 200, acc : 0.558, loss : 0.070
+Done with batch 250, acc : 0.567, loss : 0.069
+Done with batch 300, acc : 0.586, loss : 0.068
+Time taken : 57 , num_correct 3184 num_total 5217 acc 0.610 loss 0.066
+num_correct 1121 num_total 1485 acc 0.755 loss 0.060 F1 0.491625
+Done with batch 0, acc : 0.812, loss : 0.055
+Done with batch 50, acc : 0.696, loss : 0.068
+Done with batch 100, acc : 0.649, loss : 0.070
+Done with batch 150, acc : 0.618, loss : 0.070
+Done with batch 200, acc : 0.592, loss : 0.069
+Done with batch 250, acc : 0.590, loss : 0.069
+Done with batch 300, acc : 0.602, loss : 0.068
+Time taken : 57 , num_correct 3263 num_total 5217 acc 0.625 loss 0.065
+num_correct 1099 num_total 1485 acc 0.740 loss 0.060 F1 0.491352
+Done with batch 0, acc : 0.812, loss : 0.053
+Done with batch 50, acc : 0.685, loss : 0.067
+Done with batch 100, acc : 0.639, loss : 0.069
+Done with batch 150, acc : 0.614, loss : 0.070
+Done with batch 200, acc : 0.601, loss : 0.069
+Done with batch 250, acc : 0.604, loss : 0.068
+Done with batch 300, acc : 0.620, loss : 0.067
+Time taken : 57 , num_correct 3346 num_total 5217 acc 0.641 loss 0.064
+num_correct 1095 num_total 1485 acc 0.737 loss 0.060 F1 0.490612
+Done with batch 0, acc : 0.875, loss : 0.057
+Done with batch 50, acc : 0.673, loss : 0.066
+Done with batch 100, acc : 0.640, loss : 0.067
+Done with batch 150, acc : 0.606, loss : 0.068
+Done with batch 200, acc : 0.591, loss : 0.067
+Done with batch 250, acc : 0.598, loss : 0.067
+Done with batch 300, acc : 0.615, loss : 0.066
+Time taken : 57 , num_correct 3320 num_total 5217 acc 0.636 loss 0.063
+num_correct 1069 num_total 1485 acc 0.720 loss 0.060 F1 0.494440
+Done with batch 0, acc : 0.875, loss : 0.050
+Done with batch 50, acc : 0.694, loss : 0.064
+Done with batch 100, acc : 0.632, loss : 0.066
+Done with batch 150, acc : 0.598, loss : 0.068
+Done with batch 200, acc : 0.591, loss : 0.066
+Done with batch 250, acc : 0.603, loss : 0.066
+Done with batch 300, acc : 0.616, loss : 0.065
+Time taken : 57 , num_correct 3322 num_total 5217 acc 0.637 loss 0.062
+num_correct 1067 num_total 1485 acc 0.719 loss 0.060 F1 0.499287
+Done with batch 0, acc : 0.750, loss : 0.056
+Done with batch 50, acc : 0.667, loss : 0.063
+Done with batch 100, acc : 0.620, loss : 0.066
+Done with batch 150, acc : 0.593, loss : 0.066
+Done with batch 200, acc : 0.585, loss : 0.066
+Done with batch 250, acc : 0.585, loss : 0.066
+Done with batch 300, acc : 0.604, loss : 0.064
+Time taken : 57 , num_correct 3273 num_total 5217 acc 0.627 loss 0.062
+num_correct 1047 num_total 1485 acc 0.705 loss 0.060 F1 0.496130
+Done with batch 0, acc : 0.875, loss : 0.055
+Done with batch 50, acc : 0.699, loss : 0.063
+Done with batch 100, acc : 0.641, loss : 0.065
+Done with batch 150, acc : 0.599, loss : 0.066
+Done with batch 200, acc : 0.590, loss : 0.065
+Done with batch 250, acc : 0.597, loss : 0.065
+Done with batch 300, acc : 0.616, loss : 0.064
+Time taken : 57 , num_correct 3335 num_total 5217 acc 0.639 loss 0.061
+num_correct 991 num_total 1485 acc 0.667 loss 0.060 F1 0.486626
+Done with batch 0, acc : 0.812, loss : 0.046
+Done with batch 50, acc : 0.678, loss : 0.064
+Done with batch 100, acc : 0.632, loss : 0.067
+Done with batch 150, acc : 0.615, loss : 0.067
+Done with batch 200, acc : 0.605, loss : 0.066
+Done with batch 250, acc : 0.611, loss : 0.065
+Done with batch 300, acc : 0.627, loss : 0.063
+Time taken : 57 , num_correct 3380 num_total 5217 acc 0.648 loss 0.060
+num_correct 980 num_total 1485 acc 0.660 loss 0.060 F1 0.483053
+Done with batch 0, acc : 0.875, loss : 0.047
+Done with batch 50, acc : 0.699, loss : 0.059
+Done with batch 100, acc : 0.650, loss : 0.062
+Done with batch 150, acc : 0.608, loss : 0.064
+Done with batch 200, acc : 0.596, loss : 0.063
+Done with batch 250, acc : 0.604, loss : 0.063
+Done with batch 300, acc : 0.625, loss : 0.062
+Time taken : 57 , num_correct 3370 num_total 5217 acc 0.646 loss 0.059
+num_correct 934 num_total 1485 acc 0.629 loss 0.060 F1 0.471788
+Done with batch 0, acc : 0.875, loss : 0.046
+Done with batch 50, acc : 0.684, loss : 0.059
+Done with batch 100, acc : 0.616, loss : 0.063
+Done with batch 150, acc : 0.591, loss : 0.064
+Done with batch 200, acc : 0.586, loss : 0.063
+Done with batch 250, acc : 0.593, loss : 0.063
+Done with batch 300, acc : 0.613, loss : 0.061
+Time taken : 56 , num_correct 3319 num_total 5217 acc 0.636 loss 0.059
+num_correct 929 num_total 1485 acc 0.626 loss 0.060 F1 0.474300
+Done with batch 0, acc : 0.875, loss : 0.043
+Done with batch 50, acc : 0.647, loss : 0.060
+Done with batch 100, acc : 0.614, loss : 0.062
+Done with batch 150, acc : 0.597, loss : 0.062
+Done with batch 200, acc : 0.595, loss : 0.062
+Done with batch 250, acc : 0.607, loss : 0.062
+Done with batch 300, acc : 0.625, loss : 0.061
+Time taken : 56 , num_correct 3375 num_total 5217 acc 0.647 loss 0.058
+num_correct 927 num_total 1485 acc 0.624 loss 0.061 F1 0.477862
+Done with batch 0, acc : 0.812, loss : 0.048
+Done with batch 50, acc : 0.707, loss : 0.058
+Done with batch 100, acc : 0.650, loss : 0.061
+Done with batch 150, acc : 0.615, loss : 0.062
+Done with batch 200, acc : 0.613, loss : 0.061
+Done with batch 250, acc : 0.621, loss : 0.061
+Done with batch 300, acc : 0.641, loss : 0.060
+Time taken : 56 , num_correct 3455 num_total 5217 acc 0.662 loss 0.057
+num_correct 908 num_total 1485 acc 0.611 loss 0.061 F1 0.469277
+Done with batch 0, acc : 0.812, loss : 0.052
+Done with batch 50, acc : 0.688, loss : 0.057
+Done with batch 100, acc : 0.626, loss : 0.060
+Done with batch 150, acc : 0.608, loss : 0.061
+Done with batch 200, acc : 0.609, loss : 0.060
+Done with batch 250, acc : 0.616, loss : 0.060
+Done with batch 300, acc : 0.629, loss : 0.059
+Time taken : 56 , num_correct 3396 num_total 5217 acc 0.651 loss 0.056
+num_correct 876 num_total 1485 acc 0.590 loss 0.062 F1 0.464861
+Done with batch 0, acc : 0.812, loss : 0.047
+Done with batch 50, acc : 0.676, loss : 0.059
+Done with batch 100, acc : 0.623, loss : 0.060
+Done with batch 150, acc : 0.609, loss : 0.060
+Done with batch 200, acc : 0.613, loss : 0.060
+Done with batch 250, acc : 0.624, loss : 0.060
+Done with batch 300, acc : 0.642, loss : 0.058
+Time taken : 56 , num_correct 3465 num_total 5217 acc 0.664 loss 0.056
+num_correct 885 num_total 1485 acc 0.596 loss 0.062 F1 0.465995
+Done with batch 0, acc : 0.875, loss : 0.042
+Done with batch 50, acc : 0.685, loss : 0.056
+Done with batch 100, acc : 0.637, loss : 0.060
+Done with batch 150, acc : 0.624, loss : 0.060
+Done with batch 200, acc : 0.634, loss : 0.059
+Done with batch 250, acc : 0.641, loss : 0.059
+Done with batch 300, acc : 0.656, loss : 0.058
+Time taken : 56 , num_correct 3527 num_total 5217 acc 0.676 loss 0.055
+num_correct 905 num_total 1485 acc 0.609 loss 0.062 F1 0.471271
+Done with batch 0, acc : 0.875, loss : 0.057
+Done with batch 50, acc : 0.705, loss : 0.056
+Done with batch 100, acc : 0.657, loss : 0.059
+Done with batch 150, acc : 0.645, loss : 0.059
+Done with batch 200, acc : 0.641, loss : 0.059
+Done with batch 250, acc : 0.643, loss : 0.059
+Done with batch 300, acc : 0.659, loss : 0.058
+Time taken : 56 , num_correct 3548 num_total 5217 acc 0.680 loss 0.055
+num_correct 884 num_total 1485 acc 0.595 loss 0.063 F1 0.461382
+Done with batch 0, acc : 0.938, loss : 0.060
+Done with batch 50, acc : 0.695, loss : 0.055
+Done with batch 100, acc : 0.663, loss : 0.058
+Done with batch 150, acc : 0.647, loss : 0.058
+Done with batch 200, acc : 0.650, loss : 0.058
+Done with batch 250, acc : 0.660, loss : 0.058
+Done with batch 300, acc : 0.671, loss : 0.056
+Time taken : 56 , num_correct 3604 num_total 5217 acc 0.691 loss 0.054
+num_correct 891 num_total 1485 acc 0.600 loss 0.063 F1 0.462803
+Done with batch 0, acc : 0.938, loss : 0.061
+Done with batch 50, acc : 0.733, loss : 0.053
+Done with batch 100, acc : 0.666, loss : 0.057
+Done with batch 150, acc : 0.649, loss : 0.057
+Done with batch 200, acc : 0.650, loss : 0.057
+Done with batch 250, acc : 0.658, loss : 0.057
+Done with batch 300, acc : 0.674, loss : 0.055
+Time taken : 56 , num_correct 3616 num_total 5217 acc 0.693 loss 0.053
+num_correct 832 num_total 1485 acc 0.560 loss 0.067 F1 0.452833
+Done with batch 0, acc : 0.938, loss : 0.046
+Done with batch 50, acc : 0.705, loss : 0.053
+Done with batch 100, acc : 0.683, loss : 0.057
+Done with batch 150, acc : 0.667, loss : 0.056
+Done with batch 200, acc : 0.661, loss : 0.057
+Done with batch 250, acc : 0.667, loss : 0.057
+Done with batch 300, acc : 0.684, loss : 0.055
+Time taken : 56 , num_correct 3667 num_total 5217 acc 0.703 loss 0.052
+num_correct 897 num_total 1485 acc 0.604 loss 0.065 F1 0.471123
+Done with batch 0, acc : 0.938, loss : 0.060
+Done with batch 50, acc : 0.743, loss : 0.050
+Done with batch 100, acc : 0.694, loss : 0.055
+Done with batch 150, acc : 0.679, loss : 0.056
+Done with batch 200, acc : 0.680, loss : 0.056
+Done with batch 250, acc : 0.681, loss : 0.056
+Done with batch 300, acc : 0.693, loss : 0.055
+Time taken : 57 , num_correct 3708 num_total 5217 acc 0.711 loss 0.052
+num_correct 977 num_total 1485 acc 0.658 loss 0.064 F1 0.494083
+Done with batch 0, acc : 0.938, loss : 0.070
+Done with batch 50, acc : 0.750, loss : 0.051
+Done with batch 100, acc : 0.707, loss : 0.055
+Done with batch 150, acc : 0.696, loss : 0.056
+Done with batch 200, acc : 0.690, loss : 0.056
+Done with batch 250, acc : 0.690, loss : 0.057
+Done with batch 300, acc : 0.704, loss : 0.055
+Time taken : 56 , num_correct 3764 num_total 5217 acc 0.721 loss 0.052
+num_correct 956 num_total 1485 acc 0.644 loss 0.066 F1 0.486498
+Done with batch 0, acc : 0.938, loss : 0.067
+Done with batch 50, acc : 0.775, loss : 0.049
+Done with batch 100, acc : 0.709, loss : 0.053
+Done with batch 150, acc : 0.695, loss : 0.055
+Done with batch 200, acc : 0.692, loss : 0.055
+Done with batch 250, acc : 0.691, loss : 0.055
+Done with batch 300, acc : 0.703, loss : 0.054
+Time taken : 57 , num_correct 3759 num_total 5217 acc 0.721 loss 0.051
+num_correct 966 num_total 1485 acc 0.651 loss 0.067 F1 0.485046
+Done with batch 0, acc : 0.938, loss : 0.068
+Done with batch 50, acc : 0.756, loss : 0.050
+Done with batch 100, acc : 0.717, loss : 0.053
+Done with batch 150, acc : 0.707, loss : 0.054
+Done with batch 200, acc : 0.703, loss : 0.055
+Done with batch 250, acc : 0.705, loss : 0.055
+Done with batch 300, acc : 0.717, loss : 0.054
+Time taken : 56 , num_correct 3827 num_total 5217 acc 0.734 loss 0.051
+num_correct 972 num_total 1485 acc 0.655 loss 0.068 F1 0.486056
+Done with batch 0, acc : 0.938, loss : 0.065
+Done with batch 50, acc : 0.803, loss : 0.049
+Done with batch 100, acc : 0.754, loss : 0.054
+Done with batch 150, acc : 0.724, loss : 0.054
+Done with batch 200, acc : 0.716, loss : 0.055
+Done with batch 250, acc : 0.716, loss : 0.055
+Done with batch 300, acc : 0.727, loss : 0.054
+Time taken : 56 , num_correct 3875 num_total 5217 acc 0.743 loss 0.051
+num_correct 935 num_total 1485 acc 0.630 loss 0.070 F1 0.484545
+Done with batch 0, acc : 0.938, loss : 0.080
+Done with batch 50, acc : 0.799, loss : 0.051
+Done with batch 100, acc : 0.750, loss : 0.055
+Done with batch 150, acc : 0.735, loss : 0.055
+Done with batch 200, acc : 0.728, loss : 0.055
+Done with batch 250, acc : 0.725, loss : 0.056
+Done with batch 300, acc : 0.734, loss : 0.054
+Time taken : 56 , num_correct 3913 num_total 5217 acc 0.750 loss 0.051
+num_correct 976 num_total 1485 acc 0.657 loss 0.068 F1 0.487086
+Done with batch 0, acc : 0.938, loss : 0.061
+Done with batch 50, acc : 0.755, loss : 0.049
+Done with batch 100, acc : 0.732, loss : 0.053
+Done with batch 150, acc : 0.715, loss : 0.054
+Done with batch 200, acc : 0.714, loss : 0.054
+Done with batch 250, acc : 0.712, loss : 0.055
+Done with batch 300, acc : 0.729, loss : 0.053
+Time taken : 56 , num_correct 3889 num_total 5217 acc 0.745 loss 0.051
+num_correct 948 num_total 1485 acc 0.638 loss 0.071 F1 0.480866
+Done with batch 0, acc : 0.938, loss : 0.073
+Done with batch 50, acc : 0.809, loss : 0.049
+Done with batch 100, acc : 0.765, loss : 0.054
+Done with batch 150, acc : 0.742, loss : 0.055
+Done with batch 200, acc : 0.734, loss : 0.055
+Done with batch 250, acc : 0.738, loss : 0.055
+Done with batch 300, acc : 0.749, loss : 0.054
+Time taken : 57 , num_correct 3988 num_total 5217 acc 0.764 loss 0.051
+num_correct 947 num_total 1485 acc 0.638 loss 0.073 F1 0.490249
+Done with batch 0, acc : 0.938, loss : 0.075
+Done with batch 50, acc : 0.800, loss : 0.049
+Done with batch 100, acc : 0.763, loss : 0.054
+Done with batch 150, acc : 0.739, loss : 0.055
+Done with batch 200, acc : 0.738, loss : 0.056
+Done with batch 250, acc : 0.739, loss : 0.056
+Done with batch 300, acc : 0.748, loss : 0.054
+Time taken : 57 , num_correct 3981 num_total 5217 acc 0.763 loss 0.051
+num_correct 957 num_total 1485 acc 0.644 loss 0.073 F1 0.488640
+Done with batch 0, acc : 0.938, loss : 0.082
+Done with batch 50, acc : 0.811, loss : 0.050
+Done with batch 100, acc : 0.765, loss : 0.055
+Done with batch 150, acc : 0.756, loss : 0.054
+Done with batch 200, acc : 0.748, loss : 0.055
+Done with batch 250, acc : 0.746, loss : 0.055
+Done with batch 300, acc : 0.755, loss : 0.054
+Time taken : 57 , num_correct 4011 num_total 5217 acc 0.769 loss 0.051
+num_correct 999 num_total 1485 acc 0.673 loss 0.075 F1 0.497980
+Done with batch 0, acc : 0.938, loss : 0.085
+Done with batch 50, acc : 0.793, loss : 0.052
+Done with batch 100, acc : 0.769, loss : 0.057
+Done with batch 150, acc : 0.754, loss : 0.056
+Done with batch 200, acc : 0.749, loss : 0.057
+Done with batch 250, acc : 0.750, loss : 0.057
+Done with batch 300, acc : 0.760, loss : 0.055
+Time taken : 57 , num_correct 4035 num_total 5217 acc 0.773 loss 0.052
+num_correct 939 num_total 1485 acc 0.632 loss 0.077 F1 0.484825
+Done with batch 0, acc : 0.938, loss : 0.098
+Done with batch 50, acc : 0.811, loss : 0.049
+Done with batch 100, acc : 0.763, loss : 0.055
+Done with batch 150, acc : 0.752, loss : 0.055
+Done with batch 200, acc : 0.743, loss : 0.056
+Done with batch 250, acc : 0.748, loss : 0.056
+Done with batch 300, acc : 0.761, loss : 0.054
+Time taken : 57 , num_correct 4040 num_total 5217 acc 0.774 loss 0.051
+num_correct 1006 num_total 1485 acc 0.677 loss 0.077 F1 0.499630
+Done with batch 0, acc : 0.938, loss : 0.071
+Done with batch 50, acc : 0.835, loss : 0.050
+Done with batch 100, acc : 0.785, loss : 0.055
+Done with batch 150, acc : 0.771, loss : 0.055
+Done with batch 200, acc : 0.768, loss : 0.055
+Done with batch 250, acc : 0.767, loss : 0.056
+Done with batch 300, acc : 0.776, loss : 0.055
+Time taken : 57 , num_correct 4116 num_total 5217 acc 0.789 loss 0.052
+num_correct 944 num_total 1485 acc 0.636 loss 0.082 F1 0.485515
+Done with batch 0, acc : 0.938, loss : 0.101
+Done with batch 50, acc : 0.841, loss : 0.050
+Done with batch 100, acc : 0.788, loss : 0.057
+Done with batch 150, acc : 0.769, loss : 0.057
+Done with batch 200, acc : 0.766, loss : 0.058
+Done with batch 250, acc : 0.765, loss : 0.058
+Done with batch 300, acc : 0.775, loss : 0.056
+Time taken : 57 , num_correct 4114 num_total 5217 acc 0.789 loss 0.053
+num_correct 1037 num_total 1485 acc 0.698 loss 0.079 F1 0.508865
+Done with batch 0, acc : 0.938, loss : 0.086
+Done with batch 50, acc : 0.848, loss : 0.047
+Done with batch 100, acc : 0.782, loss : 0.055
+Done with batch 150, acc : 0.776, loss : 0.057
+Done with batch 200, acc : 0.772, loss : 0.057
+Done with batch 250, acc : 0.774, loss : 0.057
+Done with batch 300, acc : 0.780, loss : 0.055
+Time taken : 57 , num_correct 4136 num_total 5217 acc 0.793 loss 0.052
+num_correct 1058 num_total 1485 acc 0.712 loss 0.082 F1 0.511942
+Done with batch 0, acc : 0.938, loss : 0.070
+Done with batch 50, acc : 0.835, loss : 0.050
+Done with batch 100, acc : 0.796, loss : 0.055
+Done with batch 150, acc : 0.781, loss : 0.056
+Done with batch 200, acc : 0.773, loss : 0.057
+Done with batch 250, acc : 0.772, loss : 0.057
+Done with batch 300, acc : 0.780, loss : 0.056
+Time taken : 57 , num_correct 4140 num_total 5217 acc 0.794 loss 0.052
+num_correct 1033 num_total 1485 acc 0.696 loss 0.082 F1 0.501079
+Done with batch 0, acc : 0.938, loss : 0.095
+Done with batch 50, acc : 0.835, loss : 0.050
+Done with batch 100, acc : 0.785, loss : 0.057
+Done with batch 150, acc : 0.774, loss : 0.057
+Done with batch 200, acc : 0.774, loss : 0.058
+Done with batch 250, acc : 0.776, loss : 0.058
+Done with batch 300, acc : 0.781, loss : 0.057
+Time taken : 56 , num_correct 4142 num_total 5217 acc 0.794 loss 0.053
+num_correct 1002 num_total 1485 acc 0.675 loss 0.087 F1 0.493921
+Done with batch 0, acc : 0.938, loss : 0.069
+Done with batch 50, acc : 0.836, loss : 0.048
+Done with batch 100, acc : 0.801, loss : 0.055
+Done with batch 150, acc : 0.789, loss : 0.055
+Done with batch 200, acc : 0.789, loss : 0.057
+Done with batch 250, acc : 0.793, loss : 0.058
+Done with batch 300, acc : 0.799, loss : 0.057
+Time taken : 56 , num_correct 4231 num_total 5217 acc 0.811 loss 0.053
+num_correct 1017 num_total 1485 acc 0.685 loss 0.088 F1 0.497030
+Done with batch 0, acc : 0.938, loss : 0.059
+Done with batch 50, acc : 0.853, loss : 0.049
+Done with batch 100, acc : 0.805, loss : 0.057
+Done with batch 150, acc : 0.795, loss : 0.058
+Done with batch 200, acc : 0.792, loss : 0.059
+Done with batch 250, acc : 0.790, loss : 0.059
+Done with batch 300, acc : 0.797, loss : 0.057
+Time taken : 56 , num_correct 4216 num_total 5217 acc 0.808 loss 0.054
+num_correct 1016 num_total 1485 acc 0.684 loss 0.087 F1 0.501730
+Done with batch 0, acc : 0.938, loss : 0.083
+Done with batch 50, acc : 0.852, loss : 0.046
+Done with batch 100, acc : 0.816, loss : 0.054
+Done with batch 150, acc : 0.802, loss : 0.055
+Done with batch 200, acc : 0.802, loss : 0.056
+Done with batch 250, acc : 0.802, loss : 0.057
+Done with batch 300, acc : 0.806, loss : 0.056
+Time taken : 56 , num_correct 4259 num_total 5217 acc 0.816 loss 0.053
+num_correct 1032 num_total 1485 acc 0.695 loss 0.089 F1 0.503187
+Done with batch 0, acc : 0.938, loss : 0.052
+Done with batch 50, acc : 0.842, loss : 0.049
+Done with batch 100, acc : 0.808, loss : 0.058
+Done with batch 150, acc : 0.797, loss : 0.059
+Done with batch 200, acc : 0.799, loss : 0.059
+Done with batch 250, acc : 0.799, loss : 0.059
+Done with batch 300, acc : 0.806, loss : 0.057
+Time taken : 56 , num_correct 4261 num_total 5217 acc 0.817 loss 0.054
+num_correct 1057 num_total 1485 acc 0.712 loss 0.089 F1 0.506769
+Done with batch 0, acc : 0.938, loss : 0.045
+Done with batch 50, acc : 0.865, loss : 0.046
+Done with batch 100, acc : 0.817, loss : 0.059
+Done with batch 150, acc : 0.812, loss : 0.060
+Done with batch 200, acc : 0.806, loss : 0.061
+Done with batch 250, acc : 0.803, loss : 0.062
+Done with batch 300, acc : 0.811, loss : 0.060
+Time taken : 56 , num_correct 4287 num_total 5217 acc 0.822 loss 0.056
+num_correct 1055 num_total 1485 acc 0.710 loss 0.090 F1 0.511086
+Done with batch 0, acc : 0.938, loss : 0.047
+Done with batch 50, acc : 0.847, loss : 0.051
+Done with batch 100, acc : 0.816, loss : 0.059
+Done with batch 150, acc : 0.811, loss : 0.059
+Done with batch 200, acc : 0.807, loss : 0.061
+Done with batch 250, acc : 0.805, loss : 0.061
+Done with batch 300, acc : 0.810, loss : 0.059
+Time taken : 57 , num_correct 4282 num_total 5217 acc 0.821 loss 0.056
+num_correct 1115 num_total 1485 acc 0.751 loss 0.093 F1 0.527601
+Done with batch 0, acc : 0.938, loss : 0.023
+Done with batch 50, acc : 0.848, loss : 0.045
+Done with batch 100, acc : 0.806, loss : 0.056
+Done with batch 150, acc : 0.805, loss : 0.057
+Done with batch 200, acc : 0.806, loss : 0.057
+Done with batch 250, acc : 0.805, loss : 0.058
+Done with batch 300, acc : 0.811, loss : 0.057
+Time taken : 57 , num_correct 4290 num_total 5217 acc 0.822 loss 0.053
+num_correct 996 num_total 1485 acc 0.671 loss 0.098 F1 0.499010
+Done with batch 0, acc : 1.000, loss : 0.007
+Done with batch 50, acc : 0.859, loss : 0.046
+Done with batch 100, acc : 0.818, loss : 0.057
+Done with batch 150, acc : 0.811, loss : 0.058
+Done with batch 200, acc : 0.807, loss : 0.060
+Done with batch 250, acc : 0.805, loss : 0.062
+Done with batch 300, acc : 0.812, loss : 0.060
+Time taken : 57 , num_correct 4297 num_total 5217 acc 0.824 loss 0.056
+num_correct 1059 num_total 1485 acc 0.713 loss 0.095 F1 0.515346
+Done with batch 0, acc : 0.938, loss : 0.028
+Done with batch 50, acc : 0.863, loss : 0.049
+Done with batch 100, acc : 0.819, loss : 0.058
+Done with batch 150, acc : 0.812, loss : 0.060
+Done with batch 200, acc : 0.810, loss : 0.060
+Done with batch 250, acc : 0.809, loss : 0.061
+Done with batch 300, acc : 0.816, loss : 0.059
+Time taken : 57 , num_correct 4310 num_total 5217 acc 0.826 loss 0.055
+num_correct 1069 num_total 1485 acc 0.720 loss 0.099 F1 0.511963
+Done with batch 0, acc : 1.000, loss : 0.007
+Done with batch 50, acc : 0.859, loss : 0.052
+Done with batch 100, acc : 0.824, loss : 0.060
+Done with batch 150, acc : 0.820, loss : 0.060
+Done with batch 200, acc : 0.816, loss : 0.060
+Done with batch 250, acc : 0.816, loss : 0.060
+Done with batch 300, acc : 0.823, loss : 0.059
+Time taken : 56 , num_correct 4347 num_total 5217 acc 0.833 loss 0.055
+num_correct 1084 num_total 1485 acc 0.730 loss 0.097 F1 0.522568
+Done with batch 0, acc : 1.000, loss : 0.004
+Done with batch 50, acc : 0.860, loss : 0.045
+Done with batch 100, acc : 0.822, loss : 0.058
+Done with batch 150, acc : 0.815, loss : 0.059
+Done with batch 200, acc : 0.809, loss : 0.060
+Done with batch 250, acc : 0.809, loss : 0.062
+Done with batch 300, acc : 0.816, loss : 0.060
+Time taken : 56 , num_correct 4319 num_total 5217 acc 0.828 loss 0.056
+num_correct 1114 num_total 1485 acc 0.750 loss 0.101 F1 0.529703
+Done with batch 0, acc : 1.000, loss : 0.010
+Done with batch 50, acc : 0.864, loss : 0.048
+Done with batch 100, acc : 0.827, loss : 0.059
+Done with batch 150, acc : 0.816, loss : 0.060
+Done with batch 200, acc : 0.812, loss : 0.061
+Done with batch 250, acc : 0.811, loss : 0.062
+Done with batch 300, acc : 0.817, loss : 0.060
+Time taken : 56 , num_correct 4323 num_total 5217 acc 0.829 loss 0.056
+num_correct 1083 num_total 1485 acc 0.729 loss 0.104 F1 0.517565
+Done with batch 0, acc : 1.000, loss : 0.007
+Done with batch 50, acc : 0.877, loss : 0.048
+Done with batch 100, acc : 0.836, loss : 0.059
+Done with batch 150, acc : 0.827, loss : 0.061
+Done with batch 200, acc : 0.818, loss : 0.061
+Done with batch 250, acc : 0.817, loss : 0.062
+Done with batch 300, acc : 0.825, loss : 0.060
+Time taken : 56 , num_correct 4362 num_total 5217 acc 0.836 loss 0.056
+num_correct 1076 num_total 1485 acc 0.725 loss 0.104 F1 0.509603
+Done with batch 0, acc : 1.000, loss : 0.001
+Done with batch 50, acc : 0.873, loss : 0.048
+Done with batch 100, acc : 0.828, loss : 0.061
+Done with batch 150, acc : 0.827, loss : 0.062
+Done with batch 200, acc : 0.826, loss : 0.063
+Done with batch 250, acc : 0.824, loss : 0.063
+Done with batch 300, acc : 0.829, loss : 0.061
+Time taken : 56 , num_correct 4379 num_total 5217 acc 0.839 loss 0.057
+num_correct 1112 num_total 1485 acc 0.749 loss 0.106 F1 0.527798
+Done with batch 0, acc : 1.000, loss : 0.002
+Done with batch 50, acc : 0.875, loss : 0.048
+Done with batch 100, acc : 0.835, loss : 0.062
+Done with batch 150, acc : 0.824, loss : 0.062
+Done with batch 200, acc : 0.822, loss : 0.064
+Done with batch 250, acc : 0.823, loss : 0.064
+Done with batch 300, acc : 0.829, loss : 0.062
+Time taken : 56 , num_correct 4383 num_total 5217 acc 0.840 loss 0.058
+num_correct 1058 num_total 1485 acc 0.712 loss 0.111 F1 0.510921
+Done with batch 0, acc : 0.938, loss : 0.003
+Done with batch 50, acc : 0.875, loss : 0.045
+Done with batch 100, acc : 0.836, loss : 0.060
+Done with batch 150, acc : 0.826, loss : 0.062
+Done with batch 200, acc : 0.825, loss : 0.064
+Done with batch 250, acc : 0.825, loss : 0.064
+Done with batch 300, acc : 0.830, loss : 0.062
+Time taken : 56 , num_correct 4384 num_total 5217 acc 0.840 loss 0.058
+num_correct 1076 num_total 1485 acc 0.725 loss 0.109 F1 0.518720
+Done with batch 0, acc : 1.000, loss : 0.001
+Done with batch 50, acc : 0.884, loss : 0.046
+Done with batch 100, acc : 0.844, loss : 0.059
+Done with batch 150, acc : 0.839, loss : 0.061
+Done with batch 200, acc : 0.834, loss : 0.063
+Done with batch 250, acc : 0.833, loss : 0.064
+Done with batch 300, acc : 0.839, loss : 0.062
+Time taken : 56 , num_correct 4430 num_total 5217 acc 0.849 loss 0.058
+num_correct 1102 num_total 1485 acc 0.742 loss 0.112 F1 0.516164
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.879, loss : 0.047
+Done with batch 100, acc : 0.840, loss : 0.059
+Done with batch 150, acc : 0.839, loss : 0.059
+Done with batch 200, acc : 0.838, loss : 0.061
+Done with batch 250, acc : 0.835, loss : 0.062
+Done with batch 300, acc : 0.839, loss : 0.059
+Time taken : 56 , num_correct 4428 num_total 5217 acc 0.849 loss 0.055
+num_correct 1104 num_total 1485 acc 0.743 loss 0.108 F1 0.527198
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.865, loss : 0.047
+Done with batch 100, acc : 0.830, loss : 0.060
+Done with batch 150, acc : 0.825, loss : 0.062
+Done with batch 200, acc : 0.826, loss : 0.062
+Done with batch 250, acc : 0.826, loss : 0.062
+Done with batch 300, acc : 0.833, loss : 0.060
+Time taken : 56 , num_correct 4403 num_total 5217 acc 0.844 loss 0.056
+num_correct 1072 num_total 1485 acc 0.722 loss 0.112 F1 0.522328
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.876, loss : 0.050
+Done with batch 100, acc : 0.846, loss : 0.059
+Done with batch 150, acc : 0.831, loss : 0.063
+Done with batch 200, acc : 0.833, loss : 0.063
+Done with batch 250, acc : 0.832, loss : 0.064
+Done with batch 300, acc : 0.840, loss : 0.061
+Time taken : 57 , num_correct 4439 num_total 5217 acc 0.851 loss 0.057
+num_correct 1128 num_total 1485 acc 0.760 loss 0.114 F1 0.537510
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.877, loss : 0.046
+Done with batch 100, acc : 0.837, loss : 0.059
+Done with batch 150, acc : 0.838, loss : 0.060
+Done with batch 200, acc : 0.833, loss : 0.062
+Done with batch 250, acc : 0.835, loss : 0.063
+Done with batch 300, acc : 0.843, loss : 0.060
+Time taken : 57 , num_correct 4445 num_total 5217 acc 0.852 loss 0.056
+num_correct 1086 num_total 1485 acc 0.731 loss 0.113 F1 0.522539
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.882, loss : 0.051
+Done with batch 100, acc : 0.847, loss : 0.060
+Done with batch 150, acc : 0.848, loss : 0.059
+Done with batch 200, acc : 0.844, loss : 0.061
+Done with batch 250, acc : 0.841, loss : 0.062
+Done with batch 300, acc : 0.846, loss : 0.060
+Time taken : 56 , num_correct 4468 num_total 5217 acc 0.856 loss 0.056
+num_correct 1081 num_total 1485 acc 0.728 loss 0.117 F1 0.514635
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.890, loss : 0.045
+Done with batch 100, acc : 0.847, loss : 0.061
+Done with batch 150, acc : 0.841, loss : 0.065
+Done with batch 200, acc : 0.834, loss : 0.067
+Done with batch 250, acc : 0.834, loss : 0.067
+Done with batch 300, acc : 0.840, loss : 0.064
+Time taken : 57 , num_correct 4435 num_total 5217 acc 0.850 loss 0.060
+num_correct 1114 num_total 1485 acc 0.750 loss 0.118 F1 0.530720
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.896, loss : 0.043
+Done with batch 100, acc : 0.856, loss : 0.058
+Done with batch 150, acc : 0.848, loss : 0.060
+Done with batch 200, acc : 0.847, loss : 0.061
+Done with batch 250, acc : 0.848, loss : 0.062
+Done with batch 300, acc : 0.851, loss : 0.060
+Time taken : 57 , num_correct 4492 num_total 5217 acc 0.861 loss 0.056
+num_correct 1097 num_total 1485 acc 0.739 loss 0.120 F1 0.517603
+Done with batch 0, acc : 1.000, loss : 0.002
+Done with batch 50, acc : 0.898, loss : 0.041
+Done with batch 100, acc : 0.855, loss : 0.057
+Done with batch 150, acc : 0.850, loss : 0.058
+Done with batch 200, acc : 0.847, loss : 0.061
+Done with batch 250, acc : 0.845, loss : 0.061
+Done with batch 300, acc : 0.850, loss : 0.059
+Time taken : 57 , num_correct 4489 num_total 5217 acc 0.860 loss 0.055
+num_correct 1082 num_total 1485 acc 0.729 loss 0.115 F1 0.517773
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.891, loss : 0.045
+Done with batch 100, acc : 0.855, loss : 0.056
+Done with batch 150, acc : 0.849, loss : 0.057
+Done with batch 200, acc : 0.846, loss : 0.059
+Done with batch 250, acc : 0.844, loss : 0.061
+Done with batch 300, acc : 0.849, loss : 0.058
+Time taken : 57 , num_correct 4484 num_total 5217 acc 0.859 loss 0.054
+num_correct 1113 num_total 1485 acc 0.749 loss 0.122 F1 0.519867
+Done with batch 0, acc : 1.000, loss : 0.000
+Done with batch 50, acc : 0.902, loss : 0.040

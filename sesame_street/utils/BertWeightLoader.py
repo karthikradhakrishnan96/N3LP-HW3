@@ -1,7 +1,10 @@
 import torch
-from sesame_street.models import Bert
-import os
+
+from sesame_street.constants.file_paths import WEIGHT_MAP_PATH
 import json
+from os.path import abspath
+from inspect import getsourcefile
+
 
 class BertWeightLoader():
     def __init__(self):
@@ -76,8 +79,9 @@ class BertWeightLoader():
         condenser_weights = {k: weights[k] for k in weights if "pooler" in k}
         # TODO : Verify where do cls.predictions.X weights come from
         # TODO : Verify where does cls.seq_relationship weight come from
-
-        with open(os.path.sep.join(["constants", "hugging_face_weight_map.json"])) as f:
+        current_path = abspath(getsourcefile(lambda: 0))
+        current_path = current_path.replace("utils", "constants").replace("BertWeightLoader.py", WEIGHT_MAP_PATH)
+        with open(current_path) as f:
             weight_map = json.load(f)
 
         children = [child for child in model.children()]

@@ -1,6 +1,6 @@
 from torch import nn
 import torch
-from constants.model_consts import *
+from sesame_street.constants.model_consts import *
 
 
 class Embed(nn.Module):
@@ -16,6 +16,7 @@ class Embed(nn.Module):
     def forward(self, input_ids, token_ids):
         device = input_ids.device
         position_ids = torch.arange(input_ids.size(1), dtype=torch.long).to(device)
+        position_ids = position_ids.unsqueeze(0).expand(input_ids.size())
         # TODO: Token_type_ids is never None
         x1 = self.word_embeddings(input_ids)
         x2 = self.token_type_embeddings(token_ids)
@@ -23,11 +24,5 @@ class Embed(nn.Module):
         x3 = self.position_embeddings(position_ids)
         x = x1 + x2 + x3
         # TODO: How did they know that this is required?
-        return self.dropout(self.layer_norm(x))
-
-
-
-
-
-
-
+        x4 = self.dropout(self.layer_norm(x))
+        return x4

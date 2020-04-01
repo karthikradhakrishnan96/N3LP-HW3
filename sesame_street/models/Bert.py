@@ -13,9 +13,9 @@ class Bert(nn.Module):
         self.encoder = BertEncoder(num_layers, embed_size)
         self.condenser = BertCLSCondenser(embed_size)
 
-    def forward(self, input_ids, token_ids):
+    def forward(self, input_ids, token_ids, mask_ids = None):
         embeddings = self.embedder.forward(input_ids, token_ids)
-        encoder_outputs = self.encoder.forward(embeddings)
+        encoder_outputs = self.encoder.forward(embeddings, mask_ids)
         classifier_outputs = self.condenser(encoder_outputs)
         return classifier_outputs
 
@@ -24,3 +24,4 @@ if __name__ == "__main__":
     weights = torch.load(os.path.sep.join([".", "saved_models", "bert-base-uncased-pytorch_model.bin"]))
     model = Bert(768, 30522, 2, 512, 12)
     BertWeightLoader.from_hugging_face(model, weights)
+    print("ok")

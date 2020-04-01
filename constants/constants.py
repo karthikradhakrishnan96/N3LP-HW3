@@ -1,0 +1,14 @@
+EMBED_SIZE = 768
+WORD_VOCAB_SIZE = 30522
+TYPE_VOCAB_SIZE = 2
+POS_VOCAB_SIZE = 512
+NUM_LAYERS = 12
+NUM_CLASSES = 4
+HIDDEN_DROPOUT = 0.1
+TRAIN_PATH = [".", "data_proc", "saved_data_RumEval2019" ,"train", "train.json"]
+DEV_PATH = [".", "data_proc", "saved_data_RumEval2019" ,"dev", "dev.json"]
+MODEL_PATH = [".", "saved_models", "bert-base-uncased-pytorch_model.bin"]
+BATCH_SIZE = 16
+UPDATE_STEPS = 2
+EPOCHS = 50
+LEARNING_RATE = 1.5e-6
