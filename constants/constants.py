@@ -10,5 +10,5 @@ DEV_PATH = [".", "data_proc", "saved_data_RumEval2019" ,"dev", "dev.json"]
 MODEL_PATH = [".", "saved_models", "bert-base-uncased-pytorch_model.bin"]
 BATCH_SIZE = 16
 UPDATE_STEPS = 2
-EPOCHS = 50
+EPOCHS = 150
 LEARNING_RATE = 1.5e-6
