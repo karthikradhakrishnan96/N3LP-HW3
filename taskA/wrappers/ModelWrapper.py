@@ -1,4 +1,3 @@
-from pytorch_transformers import BertTokenizer
 from torch import nn
 
 from constants.constants import *
@@ -18,5 +17,3 @@ class ModelWrapper(nn.Module):
         bert_outputs = self.dropout(bert_outputs)
         logits = self.out(bert_outputs)
         return logits
-
-BertTokenizer
