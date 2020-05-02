@@ -1,3 +1,4 @@
+import csv
 import os
 import time
 
@@ -91,6 +92,7 @@ def validate(model, iterator, criterion):
     predictions = []
     gold = []
     model.eval()
+    tw_ids = []
     with torch.no_grad():
         for batch_idx, ele in enumerate(iterator):
             x_batch_input_ids = ele.input_ids.to(device)
@@ -99,6 +101,7 @@ def validate(model, iterator, criterion):
             x_batch_input_ids2 = ele.input_ids2.to(device)
             x_batch_token_ids2 = ele.token_ids2.to(device)
             x_batch_mask_ids2 = ele.mask_ids2.to(device)
+            x_batch_tw_ids = ele.tw_ids
             y_batch = ele.labels.to(device)
             y_pred = model.forward(x_batch_input_ids, x_batch_token_ids, x_batch_mask_ids, x_batch_input_ids2, x_batch_token_ids2, x_batch_mask_ids2)
             loss = criterion(y_pred, y_batch)
@@ -106,11 +109,14 @@ def validate(model, iterator, criterion):
             _, y_pred = torch.max(y_pred, 1)
             num_correct += (y_pred == y_batch).sum().item()
             num_total += len(y_pred)
+            tw_ids.extend(x_batch_tw_ids)
             predictions.extend(y_pred.detach().cpu().tolist())
             gold.extend(y_batch.detach().cpu().tolist())
+
     f1 = f1_score(gold, predictions, average='macro').item()
     print("num_correct %d num_total %d acc %.3f loss %.3f F1 %.6f" % (
         num_correct, num_total, num_correct / num_total, running_loss / num_total, f1))
+    return f1, (x_batch_tw_ids, predictions, gold)
 
 
 def get_class_weights(examples, num_classes):
@@ -138,12 +144,22 @@ if __name__ == "__main__":
     model = model.to(device)
     # optimizer = BertAdam(model.parameters(), LEARNING_RATE)
     optimizer = torch.optim.AdamW(model.parameters(), LEARNING_RATE)
-    weights = torch.load(os.path.sep.join(MODEL_PATH))
     class_weights = get_class_weights(train_set.examples, NUM_CLASSES)
     print("Using class weights : ", class_weights.detach().cpu().numpy().tolist())
 
     criterion = nn.CrossEntropyLoss(weight=class_weights.to(device), reduction='sum')
     print("Starting to train")
+    best_f1 = -1
+    best_epoch = -1
     for epoch in range(EPOCHS):
+        print("Epoch : ", epoch, " Best F1 : ", best_f1, " @ ", best_epoch)
         train(model, train_iter, criterion, optimizer)
-        validate(model, dev_iter, criterion)
+        f1, results = validate(model, dev_iter, criterion)
+        if f1 > best_f1:
+            best_f1 = f1
+            best_epoch = epoch
+            print("Writing...")
+            f = open('results-' + str(round(best_f1, ndigits = 5))+".txt", "w")
+            writer = csv.writer(f)
+            writer.writerows(zip(*results))
+            f.close()

@@ -1,6 +1,6 @@
 import json
 
-from torchtext.data import Example, Field, Dataset
+from torchtext.data import Example, Field, Dataset, RawField
 
 
 class RumorDataset(Dataset):
@@ -13,6 +13,7 @@ class RumorDataset(Dataset):
             ('input_ids2', Field(use_vocab=False, batch_first=True, sequential=True, pad_token=0)),
             ('token_ids2', Field(use_vocab=False, batch_first=True, sequential=True, pad_token=0)),
             ('mask_ids2', Field(use_vocab=False, batch_first=True, sequential=True, pad_token=0)),
+            ('tw_ids', RawField(is_target=False)),
             ('labels', Field(sequential=False, use_vocab=False, batch_first=True, is_target=True))
         ]
         with open(path) as f:
@@ -58,6 +59,8 @@ class RumorDataset(Dataset):
             input_ids2, token_ids2, mask_ids2 = self._make_ids(source, parent)
 
             label = example['stance_label']
-            example = Example.fromlist([input_ids, token_ids, mask_ids, input_ids2, token_ids2, mask_ids2, label], self.fields)
+            tw_id = example["tweet_id"]
+
+            example = Example.fromlist([input_ids, token_ids, mask_ids, input_ids2, token_ids2, mask_ids2, tw_id, label], self.fields)
             examples.append(example)
         self.examples = examples
