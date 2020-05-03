@@ -85,6 +85,8 @@ def train(model, iterator, criterion, optimizer):
         end - start, num_correct, num_total, num_correct / num_total, running_loss / num_total))
 
 
+i2l = ["support", "comment", "deny", "query"]
+
 def validate(model, iterator, criterion):
     running_loss = 0
     num_correct = 0
@@ -116,7 +118,9 @@ def validate(model, iterator, criterion):
     f1 = f1_score(gold, predictions, average='macro').item()
     print("num_correct %d num_total %d acc %.3f loss %.3f F1 %.6f" % (
         num_correct, num_total, num_correct / num_total, running_loss / num_total, f1))
-    return f1, (x_batch_tw_ids, predictions, gold)
+    predictions = [i2l[x] for x in predictions]
+    gold = [i2l[x] for x in gold]
+    return f1, (tw_ids, predictions, gold)
 
 
 def get_class_weights(examples, num_classes):
@@ -159,7 +163,8 @@ if __name__ == "__main__":
             best_f1 = f1
             best_epoch = epoch
             print("Writing...")
-            f = open('results-' + str(round(best_f1, ndigits = 5))+".txt", "w")
+            f = open('results-' + str(round(best_f1, ndigits = 5))+".csv", "w")
             writer = csv.writer(f)
+            writer.writerow(['id', 'pred', 'gold'])
             writer.writerows(zip(*results))
             f.close()
