@@ -1,5 +1,5 @@
 import json
-
+import numpy as np
 from torchtext.data import Example, Field, Dataset, RawField
 
 
@@ -14,10 +14,13 @@ class RumorDataset(Dataset):
             ('token_ids2', Field(use_vocab=False, batch_first=True, sequential=True, pad_token=0)),
             ('mask_ids2', Field(use_vocab=False, batch_first=True, sequential=True, pad_token=0)),
             ('tw_ids', RawField(is_target=False)),
+            ('feats', RawField(is_target=False)),
             ('labels', Field(sequential=False, use_vocab=False, batch_first=True, is_target=True))
         ]
         with open(path) as f:
             data = json.load(f)
+        self.custom_features = ["facts", "correction", "saying", "understand", "agree", "breaking", "demand", "retract", "lie", "people", "order", "refuted", "cover", "try", "admit", "error", "doubt"
+ ,"else", "could", "motive", "?", "prevent", "happening", "knows", "source", "even", "mean", "wtf", "someone", "explain", "please", "answer", "find", "link"]
         self.prep_data(data)
         super().__init__(self.examples, self.fields)
 
@@ -57,10 +60,15 @@ class RumorDataset(Dataset):
 
             input_ids, token_ids, mask_ids = self._make_ids(parent, target)
             input_ids2, token_ids2, mask_ids2 = self._make_ids(source, parent)
+            feats = np.zeros((34,))
+            tweet = target.lower()
+            for idx, feat in enumerate(self.custom_features):
+              if feat in tweet:
+                feats[idx]  = 1
 
             label = example['stance_label']
             tw_id = example["tweet_id"]
 
-            example = Example.fromlist([input_ids, token_ids, mask_ids, input_ids2, token_ids2, mask_ids2, tw_id, label], self.fields)
+            example = Example.fromlist([input_ids, token_ids, mask_ids, input_ids2, token_ids2, mask_ids2, tw_id, feats, label], self.fields)
             examples.append(example)
         self.examples = examples

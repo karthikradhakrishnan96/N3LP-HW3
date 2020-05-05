@@ -5,7 +5,7 @@ import time
 import torch
 from torch import nn
 from torchtext.data import BucketIterator
-
+import torch.nn.functional  as F
 import sys
 
 
@@ -22,7 +22,7 @@ import random
 
 print("Setting seeds")
 
-seed = 420 #10601, 11741, 11641, 11747, 42, 69
+seed = 1234 #420, 10601, 11741, 11641, 11747, 42, 69
 torch.manual_seed(seed)
 np.random.seed(seed)
 random.seed(seed)
@@ -59,8 +59,9 @@ def train(model, iterator, criterion, optimizer):
         x_batch_input_ids2 = ele.input_ids2.to(device)
         x_batch_token_ids2 = ele.token_ids2.to(device)
         x_batch_mask_ids2 = ele.mask_ids2.to(device)
+        feats = torch.Tensor(ele.feats).to(device)
         y_batch = ele.labels.to(device)
-        y_pred = model.forward(x_batch_input_ids, x_batch_token_ids, x_batch_mask_ids, x_batch_input_ids2, x_batch_token_ids2, x_batch_mask_ids2)
+        y_pred = model.forward(x_batch_input_ids, x_batch_token_ids, x_batch_mask_ids, x_batch_input_ids2, x_batch_token_ids2, x_batch_mask_ids2, feats)
         loss = criterion(y_pred, y_batch) / (BATCH_SIZE * UPDATE_STEPS)
         running_loss += loss.item()
         loss.backward()
@@ -95,6 +96,7 @@ def validate(model, iterator, criterion):
     gold = []
     model.eval()
     tw_ids = []
+    all_smaxes = []
     with torch.no_grad():
         for batch_idx, ele in enumerate(iterator):
             x_batch_input_ids = ele.input_ids.to(device)
@@ -103,11 +105,14 @@ def validate(model, iterator, criterion):
             x_batch_input_ids2 = ele.input_ids2.to(device)
             x_batch_token_ids2 = ele.token_ids2.to(device)
             x_batch_mask_ids2 = ele.mask_ids2.to(device)
+            feats = torch.Tensor(ele.feats).to(device)
             x_batch_tw_ids = ele.tw_ids
             y_batch = ele.labels.to(device)
-            y_pred = model.forward(x_batch_input_ids, x_batch_token_ids, x_batch_mask_ids, x_batch_input_ids2, x_batch_token_ids2, x_batch_mask_ids2)
+            y_pred = model.forward(x_batch_input_ids, x_batch_token_ids, x_batch_mask_ids, x_batch_input_ids2, x_batch_token_ids2, x_batch_mask_ids2, feats)
             loss = criterion(y_pred, y_batch)
             running_loss += loss.item()
+            y_pred_smaxed = F.softmax(y_pred, dim = 1)
+            all_smaxes.extend(y_pred_smaxed.detach().cpu().tolist())
             _, y_pred = torch.max(y_pred, 1)
             num_correct += (y_pred == y_batch).sum().item()
             num_total += len(y_pred)
@@ -120,7 +125,7 @@ def validate(model, iterator, criterion):
         num_correct, num_total, num_correct / num_total, running_loss / num_total, f1))
     predictions = [i2l[x] for x in predictions]
     gold = [i2l[x] for x in gold]
-    return f1, (tw_ids, predictions, gold)
+    return f1, (tw_ids, predictions, gold, all_smaxes)
 
 
 def get_class_weights(examples, num_classes):
@@ -151,6 +156,7 @@ if __name__ == "__main__":
     class_weights = get_class_weights(train_set.examples, NUM_CLASSES)
     print("Using class weights : ", class_weights.detach().cpu().numpy().tolist())
 
+    # criterion = nn.CrossEntropyLoss(reduction='sum')
     criterion = nn.CrossEntropyLoss(weight=class_weights.to(device), reduction='sum')
     print("Starting to train")
     best_f1 = -1
@@ -165,6 +171,6 @@ if __name__ == "__main__":
             print("Writing...")
             f = open('results-' + str(round(best_f1, ndigits = 5))+".csv", "w")
             writer = csv.writer(f)
-            writer.writerow(['id', 'pred', 'gold'])
+            writer.writerow(['id', 'pred', 'gold', 'smax'])
             writer.writerows(zip(*results))
             f.close()
