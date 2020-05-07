@@ -53,7 +53,11 @@ class RumorDataset(Dataset):
 
     def prep_data(self, data):
         examples = []
+        skip = 0
         for example in data['Examples']:
+            if example['tweet_id'].isdigit() == False:
+                skip += 1
+                continue
             target = example["spacy_processed_text"]
             parent = example["spacy_processed_text_prev"]
             source = example["spacy_processed_text_src"]
@@ -71,4 +75,5 @@ class RumorDataset(Dataset):
 
             example = Example.fromlist([input_ids, token_ids, mask_ids, input_ids2, token_ids2, mask_ids2, tw_id, feats, label], self.fields)
             examples.append(example)
+        print("Skipped : ,", skip)
         self.examples = examples

@@ -118,7 +118,6 @@ def validate(model, iterator, criterion):
             tw_ids.extend(x_batch_tw_ids)
             predictions.extend(y_pred.detach().cpu().tolist())
             gold.extend(y_batch.detach().cpu().tolist())
-            print(batch_idx)
 
     f1 = f1_score(gold, predictions, average='macro').item()
     print("num_correct %d num_total %d acc %.3f loss %.3f F1 %.6f" % (
@@ -165,7 +164,7 @@ if __name__ == "__main__":
     best_epoch = -1
     for epoch in range(EPOCHS):
         print("Epoch : ", epoch, " Best F1 : ", best_f1, " @ ", best_epoch)
-        #train(model, train_iter, criterion, optimizer)
+        train(model, train_iter, criterion, optimizer)
         f1, results = validate(model, dev_iter, criterion)
         prev_f1 = f1
         lines = [x for x in zip(*results)]
