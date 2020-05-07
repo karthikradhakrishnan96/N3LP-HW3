@@ -8,8 +8,10 @@ class Priori():
     def __init__(self, tree_file):
         f = open(tree_file, 'r')
         self.tree = json.load(f)
-        self.tree = self.tree['twitter']['dev']
-        self.A = np.array([[468, 1703, 206, 227, 0], [125, 949, 88, 101, 0], [28, 129, 33, 17, 0], [12, 115, 8, 13, 0], [277, 11, 9, 0, 0]])
+        self.tree = self.tree['reddit']['dev']
+        self.A_twitter = np.array([[468, 1703, 206, 227, 0], [125, 949, 88, 101, 0], [28, 129, 33, 17, 0], [12, 115, 8, 13, 0], [277, 11, 9, 0, 0]])
+        self.A_reddit = np.array([[1, 61, 3, 1, 0], [3, 409, 9, 4, 0], [0, 30, 2, 3, 0], [5, 112, 18, 7, 0], [6, 0, 2, 22, 0]])
+        self.A = self.A_reddit
         self.A = self.A / self.A.sum(axis=1)[:, np.newaxis]
         self.mapp = {"None": 4, "support": 0, "comment": 1, "deny": 2, "query": 3}
         self.rev_mapp = {self.mapp[x]: x for x in self.mapp}
@@ -19,7 +21,7 @@ class Priori():
         self.updated_results = {} # bad but okay
         self.trans_weight = trans_weight
         bert_results = {}
-        for line in lines[1:]:
+        for line in lines:
             if not line[0].isdigit():
                 pass
             bert_results[line[0]] = [line[1], line[2], np.array((line[3]))]
@@ -49,7 +51,7 @@ class Priori():
         my_REAL = my_label_vs[1]
         my_conf = my_label_vs[2]
         transition = self.A[self.mapp[parent_label]][:-1]
-        new_conf = my_conf + (self.trans_weight * transition if tweet['id_str'].isdigit() else 0)
+        new_conf = my_conf + (self.trans_weight * transition) #if tweet['id_str'].isdigit() else 0)
         # new_conf = my_conf
         new_best_arg = new_conf.argmax()
 

@@ -19,8 +19,10 @@ class RumorDataset(Dataset):
         ]
         with open(path) as f:
             data = json.load(f)
-        self.custom_features = ["facts", "correction", "saying", "understand", "agree", "breaking", "demand", "retract", "lie", "people", "order", "refuted", "cover", "try", "admit", "error", "doubt"
+        self.custom_features_twitter = ["facts", "correction", "saying", "understand", "agree", "breaking", "demand", "retract", "lie", "people", "order", "refuted", "cover", "try", "admit", "error", "doubt"
  ,"else", "could", "motive", "?", "prevent", "happening", "knows", "source", "even", "mean", "wtf", "someone", "explain", "please", "answer", "find", "link"]
+        self.custom_features_reddit = {"n't", "evidence", "?", "true", "number", "article", "support", "claim", "read", "first", "point", "source", "journal", "found", "true", "debunk", "would", "sure", "could", "reddit", "please", "record", "know", "mean", "even", "question", "status", "reported", "must", "find", "helped", "false", "totally", "honestly", "agree"}
+        self.custom_features = self.custom_features_reddit
         self.prep_data(data)
         super().__init__(self.examples, self.fields)
 
@@ -55,7 +57,7 @@ class RumorDataset(Dataset):
         examples = []
         skip = 0
         for example in data['Examples']:
-            if example['tweet_id'].isdigit() == False:
+            if example['tweet_id'].isdigit() == True:
                 skip += 1
                 continue
             target = example["spacy_processed_text"]
