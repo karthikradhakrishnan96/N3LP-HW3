@@ -59,7 +59,7 @@ class RumorDataset(Dataset):
             source = example["spacy_processed_text_src"]
 
             input_ids, token_ids, mask_ids = self._make_ids(parent, target)
-            input_ids2, token_ids2, mask_ids2 = self._make_ids(source, parent)
+            input_ids2, token_ids2, mask_ids2 = self._make_ids(source, target)
             feats = np.zeros((34,))
             tweet = target.lower()
             for idx, feat in enumerate(self.custom_features):

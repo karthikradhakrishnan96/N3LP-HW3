@@ -8,14 +8,13 @@ from torchtext.data import BucketIterator
 import torch.nn.functional  as F
 import sys
 
-
 sys.path.insert(1, "./")
 
 from constants.constants import *
 from transformers import BertTokenizer
 from taskA.datasets.RumorDataset import RumorDataset
 from taskA.wrappers.HfModelWrapper import HfModelWrapper
-
+from taskA.utils.prior import Priori
 from sklearn.metrics import f1_score
 import numpy as np
 import random
@@ -119,6 +118,7 @@ def validate(model, iterator, criterion):
             tw_ids.extend(x_batch_tw_ids)
             predictions.extend(y_pred.detach().cpu().tolist())
             gold.extend(y_batch.detach().cpu().tolist())
+            print(batch_idx)
 
     f1 = f1_score(gold, predictions, average='macro').item()
     print("num_correct %d num_total %d acc %.3f loss %.3f F1 %.6f" % (
@@ -138,6 +138,8 @@ def get_class_weights(examples, num_classes):
 
 if __name__ == "__main__":
     tokenizer = BertTokenizer.from_pretrained(bert_name)
+    prior_path = os.path.sep.join([".", "data_proc", "all_tws.json"])
+    priori = Priori(prior_path)
     print("Preparing datasets")
     train_set = RumorDataset(os.path.sep.join(TRAIN_PATH), tokenizer)
     dev_set = RumorDataset(os.path.sep.join(DEV_PATH), tokenizer)
@@ -163,14 +165,23 @@ if __name__ == "__main__":
     best_epoch = -1
     for epoch in range(EPOCHS):
         print("Epoch : ", epoch, " Best F1 : ", best_f1, " @ ", best_epoch)
-        train(model, train_iter, criterion, optimizer)
+        #train(model, train_iter, criterion, optimizer)
         f1, results = validate(model, dev_iter, criterion)
+        prev_f1 = f1
+        lines = [x for x in zip(*results)]
+        prior_vals = {0.05 :  -1, 0.1 : -1, 0.15 : -1, 0.2 : -1, 0.25 : -1, 0.3 : -1, 0.35 : -1, 0.4:-1, 0.45 : -1, 0.5 : -1}
+        for val in prior_vals:
+            f1_val = priori.get_prior_f1(lines, val)
+            prior_vals[val] = f1_val
+            if f1_val > f1:
+                f1 = f1_val
+        print("Prior f1s for this epoch : ", prior_vals)
         if f1 > best_f1:
             best_f1 = f1
             best_epoch = epoch
             print("Writing...")
-            f = open('results-' + str(round(best_f1, ndigits = 5))+".csv", "w")
+            f = open('results-' + str(round(best_f1, ndigits = 5)) +"--"+str(round(prev_f1, ndigits = 5))+".csv", "w")
             writer = csv.writer(f)
             writer.writerow(['id', 'pred', 'gold', 'smax'])
-            writer.writerows(zip(*results))
+            writer.writerows(lines)
             f.close()
